@@ -243,3 +243,5 @@ Steps:
   Just make a copy of `typescript/cm-rabbit-service/src/playground/test-spotify-browser.ts` and start from there. You mainly control the browser via a [Page](https://playwright.dev/docs/api/class-page) object from Playwright. `typescript/cm-rabbit-service/src/spotify/spotify-client.ts` contains the code for our Spotify agent.
 Contribution: 2018-06-25 20:00
 
+Contribution: 2018-06-25 20:01
+
