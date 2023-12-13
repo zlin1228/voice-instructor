@@ -1,0 +1,23 @@
+{
+  "name": "quantum-peripheral",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@googlemaps/google-maps-services-js": "^3.3.28",
+    "axios": "^0.27.2",
+    "base-core": "file:../base-core",
+    "base-fastify": "file:../base-fastify",
+    "base-gcp": "file:../base-gcp",
+    "base-node": "file:../base-node",
+    "base-playwright": "file:../base-playwright",
+    "cm-quantum-peripheral-common": "file:../cm-quantum-peripheral-common",
+    "cm-spotify-client": "file:../cm-spotify-client",
+    "googleapis": "^113.0.0",
+    "playwright": "^1.32.3"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.13",
+    "@typescript-eslint/eslint-plugin": "^5.59.0",
+    "typescript": "^5.2.2"
+  }
+}

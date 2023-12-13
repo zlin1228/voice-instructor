@@ -1,0 +1,4 @@
+base-core
+base-node
+cm-streamer-common
+cm-browsing-minion-common

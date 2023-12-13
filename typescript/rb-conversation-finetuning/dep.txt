@@ -1,0 +1,13 @@
+base-core
+base-node
+base-fastify
+base-mongodb
+base-gcp
+base-playwright
+base-media
+base-serp
+base-kubernetes
+base-nli
+cm-rabbit-common
+cm-browsing-minion-common
+cm-rabbit-service

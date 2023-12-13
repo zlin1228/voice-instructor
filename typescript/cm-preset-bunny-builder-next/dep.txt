@@ -1,0 +1,5 @@
+base-core
+base-node
+cm-bunny-host-common
+cm-bunny-host-web-common
+cm-preset-bunny-builder-common

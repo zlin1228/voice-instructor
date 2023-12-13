@@ -1,0 +1,5 @@
+base-core
+base-node
+cm-quantum-peripheral-common
+cm-rabbit-common
+cm-browsing-minion-common

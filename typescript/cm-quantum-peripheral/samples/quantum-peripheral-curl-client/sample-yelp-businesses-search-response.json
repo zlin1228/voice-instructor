@@ -1,0 +1,777 @@
+{
+  "businesses": [
+    {
+      "id": "BPZfuPvSxCfoppU4lPFm0Q",
+      "alias": "domodomo-new-york-new-york-4",
+      "name": "DOMODOMO - New York",
+      "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/YX89PDM_-aBCL2USyNyhuw/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/domodomo-new-york-new-york-4?adjust_creative=d6TM1yXhpGvgXzsUnTM9CQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=d6TM1yXhpGvgXzsUnTM9CQ",
+      "review_count": 1527,
+      "categories": [
+        {
+          "alias": "japanese",
+          "title": "Japanese"
+        },
+        {
+          "alias": "sushi",
+          "title": "Sushi Bars"
+        }
+      ],
+      "rating": 4,
+      "coordinates": {
+        "latitude": 40.7280299,
+        "longitude": -74.00167
+      },
+      "transactions": ["delivery"],
+      "price": "$$$",
+      "location": {
+        "address1": "140 W Houston St",
+        "address2": null,
+        "address3": "",
+        "city": "New York",
+        "zip_code": "10012",
+        "country": "US",
+        "state": "NY",
+        "display_address": ["140 W Houston St", "New York, NY 10012"]
+      },
+      "phone": "+16467070301",
+      "display_phone": "(646) 707-0301",
+      "distance": 3007.453427808867
+    },
+    {
+      "id": "PjjpgjY_sdawJU1JHbyNTQ",
+      "alias": "temakase-new-york-4",
+      "name": "Temakase",
+      "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/mPHfCHaldVxCRfFlSoR87A/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/temakase-new-york-4?adjust_creative=d6TM1yXhpGvgXzsUnTM9CQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=d6TM1yXhpGvgXzsUnTM9CQ",
+      "review_count": 620,
+      "categories": [
+        {
+          "alias": "sushi",
+          "title": "Sushi Bars"
+        }
+      ],
+      "rating": 4.5,
+      "coordinates": {
+        "latitude": 40.729711,
+        "longitude": -73.987127
+      },
+      "transactions": ["delivery", "pickup"],
+      "location": {
+        "address1": "157 Second Ave",
+        "address2": null,
+        "address3": "",
+        "city": "New York",
+        "zip_code": "10003",
+        "country": "US",
+        "state": "NY",
+        "display_address": ["157 Second Ave", "New York, NY 10003"]
+      },
+      "phone": "+12123811456",
+      "display_phone": "(212) 381-1456",
+      "distance": 2619.986445340264
+    },
+    {
+      "id": "pNe8ZCkGTe4cXfKdOF7kYQ",
+      "alias": "ise-restaurant-new-york-3",
+      "name": "Ise Restaurant",
+      "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/S5SGXwZfHG8Esw2x9-CF4A/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/ise-restaurant-new-york-3?adjust_creative=d6TM1yXhpGvgXzsUnTM9CQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=d6TM1yXhpGvgXzsUnTM9CQ",
+      "review_count": 612,
+      "categories": [
+        {
+          "alias": "japanese",
+          "title": "Japanese"
+        },
+        {
+          "alias": "sushi",
+          "title": "Sushi Bars"
+        }
+      ],
+      "rating": 4.5,
+      "coordinates": {
+        "latitude": 40.7291024,
+        "longitude": -73.9900618
+      },
+      "transactions": ["delivery", "pickup", "restaurant_reservation"],
+      "price": "$$",
+      "location": {
+        "address1": "63 Cooper Sq",
+        "address2": null,
+        "address3": "",
+        "city": "New York",
+        "zip_code": "10003",
+        "country": "US",
+        "state": "NY",
+        "display_address": ["63 Cooper Sq", "New York, NY 10003"]
+      },
+      "phone": "+12122284152",
+      "display_phone": "(212) 228-4152",
+      "distance": 2625.32242642354
+    },
+    {
+      "id": "KrJ6m_TkxBAPPSNH-G7rvQ",
+      "alias": "u-gu-brooklyn-4",
+      "name": "U-gu",
+      "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/xi4Z31T5IZx1qSgInM08pg/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/u-gu-brooklyn-4?adjust_creative=d6TM1yXhpGvgXzsUnTM9CQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=d6TM1yXhpGvgXzsUnTM9CQ",
+      "review_count": 179,
+      "categories": [
+        {
+          "alias": "sushi",
+          "title": "Sushi Bars"
+        },
+        {
+          "alias": "japanese",
+          "title": "Japanese"
+        }
+      ],
+      "rating": 4.5,
+      "coordinates": {
+        "latitude": 40.69393,
+        "longitude": -73.96284
+      },
+      "transactions": ["delivery", "pickup"],
+      "price": "$$",
+      "location": {
+        "address1": "541 Myrtle Ave",
+        "address2": "Ste B",
+        "address3": null,
+        "city": "Brooklyn",
+        "zip_code": "11205",
+        "country": "US",
+        "state": "NY",
+        "display_address": ["541 Myrtle Ave", "Ste B", "Brooklyn, NY 11205"]
+      },
+      "phone": "+17188570222",
+      "display_phone": "(718) 857-0222",
+      "distance": 2003.8320208833397
+    },
+    {
+      "id": "diiUjS6uHvbQRoiWOGKXsA",
+      "alias": "nami-nori-brooklyn",
+      "name": "Nami Nori",
+      "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/6oJgBcvl49SDlM_x05Ew9Q/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/nami-nori-brooklyn?adjust_creative=d6TM1yXhpGvgXzsUnTM9CQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=d6TM1yXhpGvgXzsUnTM9CQ",
+      "review_count": 115,
+      "categories": [
+        {
+          "alias": "sushi",
+          "title": "Sushi Bars"
+        },
+        {
+          "alias": "japanese",
+          "title": "Japanese"
+        },
+        {
+          "alias": "gluten_free",
+          "title": "Gluten-Free"
+        }
+      ],
+      "rating": 4.5,
+      "coordinates": {
+        "latitude": 40.71913964537471,
+        "longitude": -73.95284072719873
+      },
+      "transactions": [],
+      "price": "$$$",
+      "location": {
+        "address1": "236 N 12th St",
+        "address2": "",
+        "address3": null,
+        "city": "Brooklyn",
+        "zip_code": "11211",
+        "country": "US",
+        "state": "NY",
+        "display_address": ["236 N 12th St", "Brooklyn, NY 11211"]
+      },
+      "phone": "+19179091299",
+      "display_phone": "(917) 909-1299",
+      "distance": 2599.9566249702275
+    },
+    {
+      "id": "j-r95E-S2GUyoR2b6MTqpA",
+      "alias": "ozakaya-brooklyn",
+      "name": "Ozakaya",
+      "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/iG7S34azk5e9isqpEQY3nw/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/ozakaya-brooklyn?adjust_creative=d6TM1yXhpGvgXzsUnTM9CQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=d6TM1yXhpGvgXzsUnTM9CQ",
+      "review_count": 82,
+      "categories": [
+        {
+          "alias": "izakaya",
+          "title": "Izakaya"
+        },
+        {
+          "alias": "sushi",
+          "title": "Sushi Bars"
+        }
+      ],
+      "rating": 4.5,
+      "coordinates": {
+        "latitude": 40.67807,
+        "longitude": -73.96851
+      },
+      "transactions": ["delivery", "pickup"],
+      "location": {
+        "address1": "635 Vanderbilt Ave",
+        "address2": null,
+        "address3": "",
+        "city": "Brooklyn",
+        "zip_code": "11238",
+        "country": "US",
+        "state": "NY",
+        "display_address": ["635 Vanderbilt Ave", "Brooklyn, NY 11238"]
+      },
+      "phone": "+19294565956",
+      "display_phone": "(929) 456-5956",
+      "distance": 3344.479796220321
+    },
+    {
+      "id": "pqqhHTz_ZpApsaWGa_zMTA",
+      "alias": "douska-new-york",
+      "name": "Douska",
+      "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/mVPExHYYyAIM4ts62LwRlg/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/douska-new-york?adjust_creative=d6TM1yXhpGvgXzsUnTM9CQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=d6TM1yXhpGvgXzsUnTM9CQ",
+      "review_count": 194,
+      "categories": [
+        {
+          "alias": "sushi",
+          "title": "Sushi Bars"
+        },
+        {
+          "alias": "japanese",
+          "title": "Japanese"
+        }
+      ],
+      "rating": 4.5,
+      "coordinates": {
+        "latitude": 40.7191369,
+        "longitude": -73.9908998
+      },
+      "transactions": [],
+      "location": {
+        "address1": "63 Delancey St",
+        "address2": "",
+        "address3": null,
+        "city": "New York",
+        "zip_code": "10002",
+        "country": "US",
+        "state": "NY",
+        "display_address": ["63 Delancey St", "New York, NY 10002"]
+      },
+      "phone": "+16466570908",
+      "display_phone": "(646) 657-0908",
+      "distance": 1662.6745285396537
+    },
+    {
+      "id": "pGYovGGnxm0tMmkiQJPygA",
+      "alias": "ume-williamsburg-brooklyn",
+      "name": "Ume Williamsburg",
+      "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/Xf4YxwWndOMp-5Ho_iJ6tg/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/ume-williamsburg-brooklyn?adjust_creative=d6TM1yXhpGvgXzsUnTM9CQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=d6TM1yXhpGvgXzsUnTM9CQ",
+      "review_count": 421,
+      "categories": [
+        {
+          "alias": "sushi",
+          "title": "Sushi Bars"
+        }
+      ],
+      "rating": 4,
+      "coordinates": {
+        "latitude": 40.71657,
+        "longitude": -73.96559
+      },
+      "transactions": ["delivery"],
+      "price": "$$$$",
+      "location": {
+        "address1": "237 Kent Ave",
+        "address2": null,
+        "address3": "",
+        "city": "Brooklyn",
+        "zip_code": "11249",
+        "country": "US",
+        "state": "NY",
+        "display_address": ["237 Kent Ave", "Brooklyn, NY 11249"]
+      },
+      "phone": "+19294203253",
+      "display_phone": "(929) 420-3253",
+      "distance": 1570.5364338837653
+    },
+    {
+      "id": "W0YGwDTYRjUCBgtpqHXSAg",
+      "alias": "iwak-brooklyn",
+      "name": "IWak",
+      "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/JesScm4DuPkRvpUZyJhkSA/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/iwak-brooklyn?adjust_creative=d6TM1yXhpGvgXzsUnTM9CQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=d6TM1yXhpGvgXzsUnTM9CQ",
+      "review_count": 42,
+      "categories": [
+        {
+          "alias": "sushi",
+          "title": "Sushi Bars"
+        }
+      ],
+      "rating": 5,
+      "coordinates": {
+        "latitude": 40.71244591155105,
+        "longitude": -73.95622518519129
+      },
+      "transactions": ["delivery", "pickup"],
+      "location": {
+        "address1": "340 Grand St",
+        "address2": null,
+        "address3": "",
+        "city": "Brooklyn",
+        "zip_code": "11211",
+        "country": "US",
+        "state": "NY",
+        "display_address": ["340 Grand St", "Brooklyn, NY 11211"]
+      },
+      "phone": "+19299924925",
+      "display_phone": "(929) 992-4925",
+      "distance": 2028.6775217835077
+    },
+    {
+      "id": "MGRo61aHFUeRlWhSbTv2NA",
+      "alias": "sushi-by-m-new-york",
+      "name": "Sushi By M",
+      "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/YnguBnyTa_XwMRdM-3m2_g/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/sushi-by-m-new-york?adjust_creative=d6TM1yXhpGvgXzsUnTM9CQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=d6TM1yXhpGvgXzsUnTM9CQ",
+      "review_count": 1048,
+      "categories": [
+        {
+          "alias": "sushi",
+          "title": "Sushi Bars"
+        }
+      ],
+      "rating": 4.5,
+      "coordinates": {
+        "latitude": 40.72659,
+        "longitude": -73.98873
+      },
+      "transactions": [],
+      "price": "$$$$",
+      "location": {
+        "address1": "300 E 5th St",
+        "address2": null,
+        "address3": "",
+        "city": "New York",
+        "zip_code": "10003",
+        "country": "US",
+        "state": "NY",
+        "display_address": ["300 E 5th St", "New York, NY 10003"]
+      },
+      "phone": "+13476888101",
+      "display_phone": "(347) 688-8101",
+      "distance": 2328.048454974821
+    },
+    {
+      "id": "zGAQqDu0Ak2khVYs9WdQxw",
+      "alias": "sushi-nakazawa-new-york",
+      "name": "Sushi Nakazawa",
+      "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/oaWPXbX-O9-duVWn50cyvQ/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/sushi-nakazawa-new-york?adjust_creative=d6TM1yXhpGvgXzsUnTM9CQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=d6TM1yXhpGvgXzsUnTM9CQ",
+      "review_count": 1696,
+      "categories": [
+        {
+          "alias": "japanese",
+          "title": "Japanese"
+        },
+        {
+          "alias": "sushi",
+          "title": "Sushi Bars"
+        }
+      ],
+      "rating": 4.5,
+      "coordinates": {
+        "latitude": 40.7317465228689,
+        "longitude": -74.0045493828034
+      },
+      "transactions": [],
+      "price": "$$$$",
+      "location": {
+        "address1": "23 Commerce St",
+        "address2": "",
+        "address3": "",
+        "city": "New York",
+        "zip_code": "10014",
+        "country": "US",
+        "state": "NY",
+        "display_address": ["23 Commerce St", "New York, NY 10014"]
+      },
+      "phone": "+12129242212",
+      "display_phone": "(212) 924-2212",
+      "distance": 3486.2688894832486
+    },
+    {
+      "id": "6lUsFj0KCao678o9L7QwUw",
+      "alias": "hatsuhana-new-york",
+      "name": "Hatsuhana",
+      "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/yqxu_IyzeCxuKgN9M5ayFw/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/hatsuhana-new-york?adjust_creative=d6TM1yXhpGvgXzsUnTM9CQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=d6TM1yXhpGvgXzsUnTM9CQ",
+      "review_count": 1494,
+      "categories": [
+        {
+          "alias": "japanese",
+          "title": "Japanese"
+        },
+        {
+          "alias": "sushi",
+          "title": "Sushi Bars"
+        }
+      ],
+      "rating": 4,
+      "coordinates": {
+        "latitude": 40.75703,
+        "longitude": -73.97692
+      },
+      "transactions": ["delivery", "pickup"],
+      "price": "$$$",
+      "location": {
+        "address1": "17 E 48th St",
+        "address2": "",
+        "address3": "",
+        "city": "New York",
+        "zip_code": "10017",
+        "country": "US",
+        "state": "NY",
+        "display_address": ["17 E 48th St", "New York, NY 10017"]
+      },
+      "phone": "+12123553345",
+      "display_phone": "(212) 355-3345",
+      "distance": 5569.022484548417
+    },
+    {
+      "id": "TBp9gdS6xEbSQqffVZ7iag",
+      "alias": "kazunori-the-original-hand-roll-bar-new-york-2",
+      "name": "KazuNori  | The Original Hand Roll Bar",
+      "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/FjKC8ZesjXfRoIJEp8IeqQ/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/kazunori-the-original-hand-roll-bar-new-york-2?adjust_creative=d6TM1yXhpGvgXzsUnTM9CQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=d6TM1yXhpGvgXzsUnTM9CQ",
+      "review_count": 1360,
+      "categories": [
+        {
+          "alias": "sushi",
+          "title": "Sushi Bars"
+        },
+        {
+          "alias": "japanese",
+          "title": "Japanese"
+        }
+      ],
+      "rating": 4.5,
+      "coordinates": {
+        "latitude": 40.74519,
+        "longitude": -73.98824
+      },
+      "transactions": ["delivery"],
+      "price": "$$",
+      "location": {
+        "address1": "15 W 28th St",
+        "address2": null,
+        "address3": null,
+        "city": "New York",
+        "zip_code": "10001",
+        "country": "US",
+        "state": "NY",
+        "display_address": ["15 W 28th St", "New York, NY 10001"]
+      },
+      "phone": "+13475945940",
+      "display_phone": "(347) 594-5940",
+      "distance": 4325.149757615696
+    },
+    {
+      "id": "7OMGEtFWT6sdd9TVuoGqJQ",
+      "alias": "okonomi-brooklyn",
+      "name": "Okonomi",
+      "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/AA9rsmxAa6hZcTCVZnxaUw/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/okonomi-brooklyn?adjust_creative=d6TM1yXhpGvgXzsUnTM9CQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=d6TM1yXhpGvgXzsUnTM9CQ",
+      "review_count": 510,
+      "categories": [
+        {
+          "alias": "japanese",
+          "title": "Japanese"
+        },
+        {
+          "alias": "seafood",
+          "title": "Seafood"
+        }
+      ],
+      "rating": 4.5,
+      "coordinates": {
+        "latitude": 40.712622,
+        "longitude": -73.9487843
+      },
+      "transactions": ["delivery", "pickup"],
+      "price": "$$",
+      "location": {
+        "address1": "150 Ainslie St",
+        "address2": "",
+        "address3": "",
+        "city": "Brooklyn",
+        "zip_code": "11211",
+        "country": "US",
+        "state": "NY",
+        "display_address": ["150 Ainslie St", "Brooklyn, NY 11211"]
+      },
+      "phone": "+19292950480",
+      "display_phone": "(929) 295-0480",
+      "distance": 2638.3266052173485
+    },
+    {
+      "id": "pou1-d7PENs6AD4mnt9P4g",
+      "alias": "sushi-w-new-york",
+      "name": "Sushi W",
+      "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/hxguGJK1M2szWEm6Ikh4oA/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/sushi-w-new-york?adjust_creative=d6TM1yXhpGvgXzsUnTM9CQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=d6TM1yXhpGvgXzsUnTM9CQ",
+      "review_count": 140,
+      "categories": [
+        {
+          "alias": "japanese",
+          "title": "Japanese"
+        },
+        {
+          "alias": "sushi",
+          "title": "Sushi Bars"
+        }
+      ],
+      "rating": 4.5,
+      "coordinates": {
+        "latitude": 40.79837,
+        "longitude": -73.96941
+      },
+      "transactions": [],
+      "location": {
+        "address1": "2673 Broadway",
+        "address2": "",
+        "address3": null,
+        "city": "New York",
+        "zip_code": "10025",
+        "country": "US",
+        "state": "NY",
+        "display_address": ["2673 Broadway", "New York, NY 10025"]
+      },
+      "phone": "+19173189739",
+      "display_phone": "(917) 318-9739",
+      "distance": 10204.969653239768
+    },
+    {
+      "id": "FlZ1zdVEKWv7dwqm8Uw8-w",
+      "alias": "raku-new-york-7",
+      "name": "Raku",
+      "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/GEbZnH1jR4n7D5WOJ3urPg/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/raku-new-york-7?adjust_creative=d6TM1yXhpGvgXzsUnTM9CQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=d6TM1yXhpGvgXzsUnTM9CQ",
+      "review_count": 1489,
+      "categories": [
+        {
+          "alias": "japanese",
+          "title": "Japanese"
+        },
+        {
+          "alias": "noodles",
+          "title": "Noodles"
+        }
+      ],
+      "rating": 4.5,
+      "coordinates": {
+        "latitude": 40.7264988089246,
+        "longitude": -73.9866526052356
+      },
+      "transactions": ["delivery", "pickup"],
+      "price": "$$",
+      "location": {
+        "address1": "342 E 6th St",
+        "address2": "",
+        "address3": "",
+        "city": "New York",
+        "zip_code": "10003",
+        "country": "US",
+        "state": "NY",
+        "display_address": ["342 E 6th St", "New York, NY 10003"]
+      },
+      "phone": "+12122281324",
+      "display_phone": "(212) 228-1324",
+      "distance": 2259.9968481865194
+    },
+    {
+      "id": "itblJyiTY2h2ACidLk66oA",
+      "alias": "takahachi-new-york",
+      "name": "Takahachi",
+      "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/fCY0Dtst4A5vrjGVUQNJJw/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/takahachi-new-york?adjust_creative=d6TM1yXhpGvgXzsUnTM9CQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=d6TM1yXhpGvgXzsUnTM9CQ",
+      "review_count": 605,
+      "categories": [
+        {
+          "alias": "sushi",
+          "title": "Sushi Bars"
+        },
+        {
+          "alias": "japanese",
+          "title": "Japanese"
+        }
+      ],
+      "rating": 4,
+      "coordinates": {
+        "latitude": 40.725315,
+        "longitude": -73.984436
+      },
+      "transactions": ["delivery"],
+      "price": "$$",
+      "location": {
+        "address1": "85 Ave A",
+        "address2": "",
+        "address3": "",
+        "city": "New York",
+        "zip_code": "10009",
+        "country": "US",
+        "state": "NY",
+        "display_address": ["85 Ave A", "New York, NY 10009"]
+      },
+      "phone": "+12125056524",
+      "display_phone": "(212) 505-6524",
+      "distance": 2079.6238700194563
+    },
+    {
+      "id": "eQ4QUGvuHGBzsOrphsVc6A",
+      "alias": "kimura-new-york",
+      "name": "Kimura",
+      "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/mljczn7werHwgQX7_cF-rA/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/kimura-new-york?adjust_creative=d6TM1yXhpGvgXzsUnTM9CQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=d6TM1yXhpGvgXzsUnTM9CQ",
+      "review_count": 332,
+      "categories": [
+        {
+          "alias": "japanese",
+          "title": "Japanese"
+        },
+        {
+          "alias": "hotpot",
+          "title": "Hot Pot"
+        },
+        {
+          "alias": "sushi",
+          "title": "Sushi Bars"
+        }
+      ],
+      "rating": 4.5,
+      "coordinates": {
+        "latitude": 40.728995,
+        "longitude": -73.988279
+      },
+      "transactions": ["delivery", "pickup"],
+      "price": "$$$",
+      "location": {
+        "address1": "31 St Marks Pl",
+        "address2": null,
+        "address3": "",
+        "city": "New York",
+        "zip_code": "10003",
+        "country": "US",
+        "state": "NY",
+        "display_address": ["31 St Marks Pl", "New York, NY 10003"]
+      },
+      "phone": "+19179051864",
+      "display_phone": "(917) 905-1864",
+      "distance": 2567.713748018625
+    },
+    {
+      "id": "axqp3pGJXnTLgq2QrPyDyQ",
+      "alias": "benemon-new-york",
+      "name": "Benemon",
+      "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/5ZRHsFgkyoSzac8ofvhvvg/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/benemon-new-york?adjust_creative=d6TM1yXhpGvgXzsUnTM9CQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=d6TM1yXhpGvgXzsUnTM9CQ",
+      "review_count": 694,
+      "categories": [
+        {
+          "alias": "japanese",
+          "title": "Japanese"
+        },
+        {
+          "alias": "tapasmallplates",
+          "title": "Tapas/Small Plates"
+        },
+        {
+          "alias": "cocktailbars",
+          "title": "Cocktail Bars"
+        }
+      ],
+      "rating": 4.5,
+      "coordinates": {
+        "latitude": 40.72551,
+        "longitude": -73.98838
+      },
+      "transactions": ["delivery", "pickup"],
+      "price": "$$",
+      "location": {
+        "address1": "108 E 4th St",
+        "address2": null,
+        "address3": "",
+        "city": "New York",
+        "zip_code": "10003",
+        "country": "US",
+        "state": "NY",
+        "display_address": ["108 E 4th St", "New York, NY 10003"]
+      },
+      "phone": "+12126143006",
+      "display_phone": "(212) 614-3006",
+      "distance": 2203.1534401372264
+    },
+    {
+      "id": "x4BfdPUJQ4nCr3vvBH1IeA",
+      "alias": "domakase-new-york",
+      "name": "Domakase",
+      "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/gLtG8aG90M7kG5jqCvqQzw/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/domakase-new-york?adjust_creative=d6TM1yXhpGvgXzsUnTM9CQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=d6TM1yXhpGvgXzsUnTM9CQ",
+      "review_count": 22,
+      "categories": [
+        {
+          "alias": "sushi",
+          "title": "Sushi Bars"
+        }
+      ],
+      "rating": 5,
+      "coordinates": {
+        "latitude": 40.72218,
+        "longitude": -73.98319
+      },
+      "transactions": ["delivery", "pickup"],
+      "location": {
+        "address1": "23 Avenue B",
+        "address2": null,
+        "address3": "",
+        "city": "New York",
+        "zip_code": "10009",
+        "country": "US",
+        "state": "NY",
+        "display_address": ["23 Avenue B", "New York, NY 10009"]
+      },
+      "phone": "+16469884711",
+      "display_phone": "(646) 988-4711",
+      "distance": 1721.1565877323603
+    }
+  ],
+  "total": 5200,
+  "region": {
+    "center": {
+      "longitude": -73.97918701171875,
+      "latitude": 40.706977710584276
+    }
+  }
+}

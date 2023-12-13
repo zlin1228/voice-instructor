@@ -1,0 +1,8 @@
+base-core
+base-fastify
+base-kubernetes
+base-mongodb
+base-node
+base-playwright
+rb-rabbit-common
+rb-rabbit-companion-common

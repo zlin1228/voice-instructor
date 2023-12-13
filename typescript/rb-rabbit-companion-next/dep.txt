@@ -1,0 +1,3 @@
+base-core
+rb-rabbit-common
+rb-rabbit-companion-common

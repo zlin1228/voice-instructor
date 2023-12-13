@@ -1,0 +1,4 @@
+base-core
+base-node
+base-fastify
+cm-streamer-common

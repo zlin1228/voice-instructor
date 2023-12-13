@@ -1,0 +1,511 @@
+{
+  "businesses": [
+    {
+      "id": "t4VYskkVmTcGOHQ_DL-HuA",
+      "alias": "little-brother-sushi-woodland-hills",
+      "name": "Little Brother Sushi",
+      "imageUrl": "https://www.yelp.com/biz/little-brother-sushi-woodland-hills?adjust_creative=d6TM1yXhpGvgXzsUnTM9CQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=d6TM1yXhpGvgXzsUnTM9CQ",
+      "isClosed": false,
+      "url": "https://www.yelp.com/biz/little-brother-sushi-woodland-hills?adjust_creative=d6TM1yXhpGvgXzsUnTM9CQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=d6TM1yXhpGvgXzsUnTM9CQ",
+      "reviewCount": 420,
+      "categories": [
+        {
+          "alias": "sushi",
+          "title": "Sushi Bars"
+        }
+      ],
+      "rating": 4,
+      "geoLocation": {
+        "latitude": 34.168251,
+        "longitude": -118.609447
+      },
+      "price": "$$",
+      "displayAddress": [
+        "22140 Ventura Blvd",
+        "Woodland Hills, CA 91364"
+      ],
+      "phone": "+18186108350",
+      "displayPhone": "(818) 610-8350",
+      "distance": 7757.520792759659
+    },
+    {
+      "id": "BtG2MfCDf-QBST3vv8IANw",
+      "alias": "the-brothers-sushi-woodland-hills",
+      "name": "The Brothers Sushi",
+      "imageUrl": "https://www.yelp.com/biz/the-brothers-sushi-woodland-hills?adjust_creative=d6TM1yXhpGvgXzsUnTM9CQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=d6TM1yXhpGvgXzsUnTM9CQ",
+      "isClosed": false,
+      "url": "https://www.yelp.com/biz/the-brothers-sushi-woodland-hills?adjust_creative=d6TM1yXhpGvgXzsUnTM9CQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=d6TM1yXhpGvgXzsUnTM9CQ",
+      "reviewCount": 672,
+      "categories": [
+        {
+          "alias": "sushi",
+          "title": "Sushi Bars"
+        },
+        {
+          "alias": "japanese",
+          "title": "Japanese"
+        }
+      ],
+      "rating": 4,
+      "geoLocation": {
+        "latitude": 34.16766,
+        "longitude": -118.59824
+      },
+      "price": "$$$$",
+      "displayAddress": [
+        "21418 Ventura Blvd",
+        "Woodland Hills, CA 91364"
+      ],
+      "phone": "+18184564509",
+      "displayPhone": "(818) 456-4509",
+      "distance": 8562.488915155205
+    },
+    {
+      "id": "TlYuKLC9xmyMRj3MUsn7qg",
+      "alias": "sushi-raku-agoura-hills",
+      "name": "Sushi Raku",
+      "imageUrl": "https://www.yelp.com/biz/sushi-raku-agoura-hills?adjust_creative=d6TM1yXhpGvgXzsUnTM9CQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=d6TM1yXhpGvgXzsUnTM9CQ",
+      "isClosed": false,
+      "url": "https://www.yelp.com/biz/sushi-raku-agoura-hills?adjust_creative=d6TM1yXhpGvgXzsUnTM9CQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=d6TM1yXhpGvgXzsUnTM9CQ",
+      "reviewCount": 302,
+      "categories": [
+        {
+          "alias": "sushi",
+          "title": "Sushi Bars"
+        },
+        {
+          "alias": "japanese",
+          "title": "Japanese"
+        }
+      ],
+      "rating": 3.5,
+      "geoLocation": {
+        "latitude": 34.148237610156,
+        "longitude": -118.76015584869
+      },
+      "price": "$$",
+      "displayAddress": [
+        "5190 Kanan Rd",
+        "Agoura Hills, CA 91301"
+      ],
+      "phone": "+18187072765",
+      "displayPhone": "(818) 707-2765",
+      "distance": 11076.796151480936
+    },
+    {
+      "id": "DekQJzXRwhqJs8lZO5XX0A",
+      "alias": "maru-sushi-bar-los-angeles",
+      "name": "Maru Sushi Bar",
+      "imageUrl": "https://www.yelp.com/biz/maru-sushi-bar-los-angeles?adjust_creative=d6TM1yXhpGvgXzsUnTM9CQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=d6TM1yXhpGvgXzsUnTM9CQ",
+      "isClosed": false,
+      "url": "https://www.yelp.com/biz/maru-sushi-bar-los-angeles?adjust_creative=d6TM1yXhpGvgXzsUnTM9CQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=d6TM1yXhpGvgXzsUnTM9CQ",
+      "reviewCount": 1099,
+      "categories": [
+        {
+          "alias": "sushi",
+          "title": "Sushi Bars"
+        }
+      ],
+      "rating": 4.5,
+      "geoLocation": {
+        "latitude": 34.2573749,
+        "longitude": -118.5992899
+      },
+      "price": "$$$",
+      "displayAddress": [
+        "21515 Devonshire St",
+        "Los Angeles, CA 91311"
+      ],
+      "phone": "+18182806168",
+      "displayPhone": "(818) 280-6168",
+      "distance": 8144.657243353163
+    },
+    {
+      "id": "brrHf0PM-O4pMcRtkdz9GA",
+      "alias": "tomoya-sushi-and-izakaya-woodland-hills-2",
+      "name": "Tomoya Sushi & Izakaya",
+      "imageUrl": "https://www.yelp.com/biz/tomoya-sushi-and-izakaya-woodland-hills-2?adjust_creative=d6TM1yXhpGvgXzsUnTM9CQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=d6TM1yXhpGvgXzsUnTM9CQ",
+      "isClosed": false,
+      "url": "https://www.yelp.com/biz/tomoya-sushi-and-izakaya-woodland-hills-2?adjust_creative=d6TM1yXhpGvgXzsUnTM9CQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=d6TM1yXhpGvgXzsUnTM9CQ",
+      "reviewCount": 1020,
+      "categories": [
+        {
+          "alias": "japanese",
+          "title": "Japanese"
+        },
+        {
+          "alias": "sushi",
+          "title": "Sushi Bars"
+        }
+      ],
+      "rating": 4,
+      "geoLocation": {
+        "latitude": 34.180027,
+        "longitude": -118.596946
+      },
+      "price": "$$",
+      "displayAddress": [
+        "6020 Canoga Ave",
+        "Ste 100",
+        "Woodland Hills, CA 91367"
+      ],
+      "phone": "+18187030318",
+      "displayPhone": "(818) 703-0318",
+      "distance": 7897.463055510368
+    },
+    {
+      "id": "AKdWtxCx7AHfNcXdV3iKlw",
+      "alias": "hikari-sushi-chatsworth-2",
+      "name": "Hikari Sushi",
+      "imageUrl": "https://www.yelp.com/biz/hikari-sushi-chatsworth-2?adjust_creative=d6TM1yXhpGvgXzsUnTM9CQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=d6TM1yXhpGvgXzsUnTM9CQ",
+      "isClosed": false,
+      "url": "https://www.yelp.com/biz/hikari-sushi-chatsworth-2?adjust_creative=d6TM1yXhpGvgXzsUnTM9CQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=d6TM1yXhpGvgXzsUnTM9CQ",
+      "reviewCount": 2436,
+      "categories": [
+        {
+          "alias": "sushi",
+          "title": "Sushi Bars"
+        },
+        {
+          "alias": "japanese",
+          "title": "Japanese"
+        }
+      ],
+      "rating": 4,
+      "geoLocation": {
+        "latitude": 34.256981771127165,
+        "longitude": -118.594815
+      },
+      "price": "$$$",
+      "displayAddress": [
+        "21230 Devonshire St",
+        "Chatsworth, CA 91311"
+      ],
+      "phone": "+18189988080",
+      "displayPhone": "(818) 998-8080",
+      "distance": 8411.68621045415
+    },
+    {
+      "id": "VCbkVxn2y7doj3brvuttIg",
+      "alias": "sake-2-me-sushi-simi-valley",
+      "name": "Sake 2 Me Sushi",
+      "imageUrl": "https://www.yelp.com/biz/sake-2-me-sushi-simi-valley?adjust_creative=d6TM1yXhpGvgXzsUnTM9CQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=d6TM1yXhpGvgXzsUnTM9CQ",
+      "isClosed": false,
+      "url": "https://www.yelp.com/biz/sake-2-me-sushi-simi-valley?adjust_creative=d6TM1yXhpGvgXzsUnTM9CQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=d6TM1yXhpGvgXzsUnTM9CQ",
+      "reviewCount": 605,
+      "categories": [
+        {
+          "alias": "sushi",
+          "title": "Sushi Bars"
+        }
+      ],
+      "rating": 4,
+      "geoLocation": {
+        "latitude": 34.2797493434691,
+        "longitude": -118.72036220859464
+      },
+      "price": "$$",
+      "displayAddress": [
+        "3885 Cochran St",
+        "Simi Valley, CA 93063"
+      ],
+      "phone": "+18055279999",
+      "displayPhone": "(805) 527-9999",
+      "distance": 8446.310666878253
+    },
+    {
+      "id": "MiQcwIlMYpLED05TL-7-6Q",
+      "alias": "shibuya-calabasas",
+      "name": "Shibuya",
+      "imageUrl": "https://www.yelp.com/biz/shibuya-calabasas?adjust_creative=d6TM1yXhpGvgXzsUnTM9CQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=d6TM1yXhpGvgXzsUnTM9CQ",
+      "isClosed": false,
+      "url": "https://www.yelp.com/biz/shibuya-calabasas?adjust_creative=d6TM1yXhpGvgXzsUnTM9CQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=d6TM1yXhpGvgXzsUnTM9CQ",
+      "reviewCount": 892,
+      "categories": [
+        {
+          "alias": "sushi",
+          "title": "Sushi Bars"
+        }
+      ],
+      "rating": 4.5,
+      "geoLocation": {
+        "latitude": 34.15442,
+        "longitude": -118.64193
+      },
+      "price": "$$$",
+      "displayAddress": [
+        "4774 Park Granada",
+        "Ste 8B",
+        "Calabasas, CA 91302"
+      ],
+      "phone": "+18182251560",
+      "displayPhone": "(818) 225-1560",
+      "distance": 7323.466209516369
+    },
+    {
+      "id": "A9XEFZEwr4M5SxIlGx6ZFw",
+      "alias": "catch-me-sushi-canoga-park",
+      "name": "Catch Me Sushi",
+      "imageUrl": "https://www.yelp.com/biz/catch-me-sushi-canoga-park?adjust_creative=d6TM1yXhpGvgXzsUnTM9CQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=d6TM1yXhpGvgXzsUnTM9CQ",
+      "isClosed": false,
+      "url": "https://www.yelp.com/biz/catch-me-sushi-canoga-park?adjust_creative=d6TM1yXhpGvgXzsUnTM9CQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=d6TM1yXhpGvgXzsUnTM9CQ",
+      "reviewCount": 561,
+      "categories": [
+        {
+          "alias": "sushi",
+          "title": "Sushi Bars"
+        },
+        {
+          "alias": "desserts",
+          "title": "Desserts"
+        },
+        {
+          "alias": "salad",
+          "title": "Salad"
+        }
+      ],
+      "rating": 4.5,
+      "geoLocation": {
+        "latitude": 34.2020829,
+        "longitude": -118.5975751
+      },
+      "price": "$$",
+      "displayAddress": [
+        "7234 Canoga Ave",
+        "Canoga Park, CA 91303"
+      ],
+      "phone": "+18187221443",
+      "displayPhone": "(818) 722-1443",
+      "distance": 6956.999810728359
+    },
+    {
+      "id": "hRACFA0ddQQkABwSfHtb5A",
+      "alias": "ken-of-japan-simi-valley",
+      "name": "Ken of Japan",
+      "imageUrl": "https://www.yelp.com/biz/ken-of-japan-simi-valley?adjust_creative=d6TM1yXhpGvgXzsUnTM9CQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=d6TM1yXhpGvgXzsUnTM9CQ",
+      "isClosed": false,
+      "url": "https://www.yelp.com/biz/ken-of-japan-simi-valley?adjust_creative=d6TM1yXhpGvgXzsUnTM9CQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=d6TM1yXhpGvgXzsUnTM9CQ",
+      "reviewCount": 288,
+      "categories": [
+        {
+          "alias": "japanese",
+          "title": "Japanese"
+        },
+        {
+          "alias": "sushi",
+          "title": "Sushi Bars"
+        },
+        {
+          "alias": "steak",
+          "title": "Steakhouses"
+        }
+      ],
+      "rating": 3,
+      "geoLocation": {
+        "latitude": 34.2789013,
+        "longitude": -118.7102187
+      },
+      "price": "$$",
+      "displayAddress": [
+        "4340 Cochran St",
+        "Simi Valley, CA 93063"
+      ],
+      "phone": "+18055276490",
+      "displayPhone": "(805) 527-6490",
+      "distance": 7881.844055446695
+    },
+    {
+      "id": "QbJNQBpYanGGuzLbE-Zzwg",
+      "alias": "joey-woodland-hills-los-angeles-2",
+      "name": "JOEY Woodland Hills",
+      "imageUrl": "https://www.yelp.com/biz/joey-woodland-hills-los-angeles-2?adjust_creative=d6TM1yXhpGvgXzsUnTM9CQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=d6TM1yXhpGvgXzsUnTM9CQ",
+      "isClosed": false,
+      "url": "https://www.yelp.com/biz/joey-woodland-hills-los-angeles-2?adjust_creative=d6TM1yXhpGvgXzsUnTM9CQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=d6TM1yXhpGvgXzsUnTM9CQ",
+      "reviewCount": 4008,
+      "categories": [
+        {
+          "alias": "newamerican",
+          "title": "American (New)"
+        },
+        {
+          "alias": "lounges",
+          "title": "Lounges"
+        },
+        {
+          "alias": "steak",
+          "title": "Steakhouses"
+        }
+      ],
+      "rating": 4,
+      "geoLocation": {
+        "latitude": 34.18621,
+        "longitude": -118.605225
+      },
+      "price": "$$$",
+      "displayAddress": [
+        "6344 Topanga Canyon Blvd",
+        "Los Angeles, CA 91367"
+      ],
+      "phone": "+18183405639",
+      "displayPhone": "(818) 340-5639",
+      "distance": 6897.588400849158
+    },
+    {
+      "id": "cG7PKktOfCSd07BvIUxivA",
+      "alias": "california-sushi-and-teriyaki-canoga-park",
+      "name": "California Sushi & Teriyaki",
+      "imageUrl": "https://www.yelp.com/biz/california-sushi-and-teriyaki-canoga-park?adjust_creative=d6TM1yXhpGvgXzsUnTM9CQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=d6TM1yXhpGvgXzsUnTM9CQ",
+      "isClosed": false,
+      "url": "https://www.yelp.com/biz/california-sushi-and-teriyaki-canoga-park?adjust_creative=d6TM1yXhpGvgXzsUnTM9CQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=d6TM1yXhpGvgXzsUnTM9CQ",
+      "reviewCount": 210,
+      "categories": [
+        {
+          "alias": "sushi",
+          "title": "Sushi Bars"
+        },
+        {
+          "alias": "japanese",
+          "title": "Japanese"
+        },
+        {
+          "alias": "sandwiches",
+          "title": "Sandwiches"
+        }
+      ],
+      "rating": 4,
+      "geoLocation": {
+        "latitude": 34.2205456866341,
+        "longitude": -118.588734498299
+      },
+      "price": "$$",
+      "displayAddress": [
+        "8315 De Soto Ave",
+        "Canoga Park, CA 91304"
+      ],
+      "phone": "+18189987117",
+      "displayPhone": "(818) 998-7117",
+      "distance": 7615.754644611046
+    },
+    {
+      "id": "lbPM0JLi6ngd14s_Yf69Tw",
+      "alias": "red-ginger-sushi-woodland-hills-2",
+      "name": "Red Ginger Sushi",
+      "imageUrl": "https://www.yelp.com/biz/red-ginger-sushi-woodland-hills-2?adjust_creative=d6TM1yXhpGvgXzsUnTM9CQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=d6TM1yXhpGvgXzsUnTM9CQ",
+      "isClosed": false,
+      "url": "https://www.yelp.com/biz/red-ginger-sushi-woodland-hills-2?adjust_creative=d6TM1yXhpGvgXzsUnTM9CQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=d6TM1yXhpGvgXzsUnTM9CQ",
+      "reviewCount": 302,
+      "categories": [
+        {
+          "alias": "sushi",
+          "title": "Sushi Bars"
+        },
+        {
+          "alias": "japanese",
+          "title": "Japanese"
+        }
+      ],
+      "rating": 4,
+      "geoLocation": {
+        "latitude": 34.16464381257854,
+        "longitude": -118.62655678898574
+      },
+      "price": "$$",
+      "displayAddress": [
+        "22984 Ventura Blvd",
+        "Woodland Hills, CA 91364"
+      ],
+      "phone": "+18185918055",
+      "displayPhone": "(818) 591-8055",
+      "distance": 6996.183525370758
+    },
+    {
+      "id": "Uxr63wQ6fVQtSWkfN-MdYQ",
+      "alias": "sushi-katsu-ya-woodland-hills",
+      "name": "Sushi Katsu-Ya",
+      "imageUrl": "https://www.yelp.com/biz/sushi-katsu-ya-woodland-hills?adjust_creative=d6TM1yXhpGvgXzsUnTM9CQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=d6TM1yXhpGvgXzsUnTM9CQ",
+      "isClosed": false,
+      "url": "https://www.yelp.com/biz/sushi-katsu-ya-woodland-hills?adjust_creative=d6TM1yXhpGvgXzsUnTM9CQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=d6TM1yXhpGvgXzsUnTM9CQ",
+      "reviewCount": 541,
+      "categories": [
+        {
+          "alias": "sushi",
+          "title": "Sushi Bars"
+        },
+        {
+          "alias": "japanese",
+          "title": "Japanese"
+        }
+      ],
+      "rating": 3.5,
+      "geoLocation": {
+        "latitude": 34.18364364973952,
+        "longitude": -118.60508198028148
+      },
+      "price": "$$$",
+      "displayAddress": [
+        "6220 N Topanga Canyon Blvd",
+        "Ste 1460",
+        "Woodland Hills, CA 91367"
+      ],
+      "phone": "+18187041213",
+      "displayPhone": "(818) 704-1213",
+      "distance": 7048.290625894266
+    },
+    {
+      "id": "yyvQI-rWjGQ0EgMtjwSydg",
+      "alias": "honshu-sushi-chatsworth-2",
+      "name": "Honshu Sushi",
+      "imageUrl": "https://www.yelp.com/biz/honshu-sushi-chatsworth-2?adjust_creative=d6TM1yXhpGvgXzsUnTM9CQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=d6TM1yXhpGvgXzsUnTM9CQ",
+      "isClosed": false,
+      "url": "https://www.yelp.com/biz/honshu-sushi-chatsworth-2?adjust_creative=d6TM1yXhpGvgXzsUnTM9CQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=d6TM1yXhpGvgXzsUnTM9CQ",
+      "reviewCount": 464,
+      "categories": [
+        {
+          "alias": "sushi",
+          "title": "Sushi Bars"
+        }
+      ],
+      "rating": 4,
+      "geoLocation": {
+        "latitude": 34.2544514,
+        "longitude": -118.5797051
+      },
+      "price": "$$",
+      "displayAddress": [
+        "10166 Mason Ave",
+        "Chatsworth, CA 91311"
+      ],
+      "phone": "+18187095693",
+      "displayPhone": "(818) 709-5693",
+      "distance": 9578.556449792557
+    },
+    {
+      "id": "JaoAhfs-5aXX8o-lJUOonw",
+      "alias": "restaurant-tatsuki-woodland-hills",
+      "name": "Restaurant Tatsuki",
+      "imageUrl": "https://www.yelp.com/biz/restaurant-tatsuki-woodland-hills?adjust_creative=d6TM1yXhpGvgXzsUnTM9CQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=d6TM1yXhpGvgXzsUnTM9CQ",
+      "isClosed": false,
+      "url": "https://www.yelp.com/biz/restaurant-tatsuki-woodland-hills?adjust_creative=d6TM1yXhpGvgXzsUnTM9CQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=d6TM1yXhpGvgXzsUnTM9CQ",
+      "reviewCount": 368,
+      "categories": [
+        {
+          "alias": "sushi",
+          "title": "Sushi Bars"
+        }
+      ],
+      "rating": 4,
+      "geoLocation": {
+        "latitude": 34.16809,
+        "longitude": -118.60059
+      },
+      "price": "$$",
+      "displayAddress": [
+        "21630 Ventura Blvd",
+        "Woodland Hills, CA 91364"
+      ],
+      "phone": "+18183408690",
+      "displayPhone": "(818) 340-8690",
+      "distance": 8374.787468384498
+    }
+  ]
+}

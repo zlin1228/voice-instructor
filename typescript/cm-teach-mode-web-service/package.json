@@ -1,0 +1,22 @@
+{
+  "name": "cm-teach-mode-web-service",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@fastify/cors": "^8.3.0",
+    "@xmldom/xmldom": "^0.8.10",
+    "base-core": "file:../base-core",
+    "base-fastify": "file:../base-fastify",
+    "base-mongodb": "file:../base-mongodb",
+    "base-node": "file:../base-node",
+    "base-playwright": "file:../base-playwright",
+    "cm-teach-mode-web-common": "file:../cm-teach-mode-web-common"
+  },
+  "devDependencies": {
+    "@types/node": "^20.4.7",
+    "@typescript-eslint/eslint-plugin": "^6.2.1",
+    "@typescript-eslint/parser": "^6.2.1",
+    "eslint": "^8.46.0",
+    "typescript": "^5.2.2"
+  }
+}

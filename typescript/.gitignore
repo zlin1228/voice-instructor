@@ -1,0 +1,4 @@
+*/*.tsbuildinfo
+*/build/
+*/lib/
+*/node_modules/

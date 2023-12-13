@@ -1,0 +1,19 @@
+{
+  "name": "base-llm",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.5.10",
+    "@anthropic-ai/tokenizer": "^0.0.4",
+    "base-core": "file:../base-core",
+    "base-node": "file:../base-node",
+    "openai": "^4.0.0-beta.7"
+  },
+  "devDependencies": {
+    "@types/node": "^20.4.7",
+    "@typescript-eslint/eslint-plugin": "^6.2.1",
+    "@typescript-eslint/parser": "^6.2.1",
+    "eslint": "^8.46.0",
+    "typescript": "^5.2.2"
+  }
+}

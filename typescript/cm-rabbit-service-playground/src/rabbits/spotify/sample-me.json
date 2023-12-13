@@ -1,0 +1,26 @@
+{
+  "birthdate": "1999-01-01",
+  "country": "US",
+  "display_name": "rabbit inc.",
+  "email": "developer@cybermanufacture.co",
+  "explicit_content": {
+    "filter_enabled": false,
+    "filter_locked": false
+  },
+  "external_urls": {
+    "spotify": "https://open.spotify.com/user/31hgk3yuxwys4s5ta62a3slhx5xu"
+  },
+  "followers": {
+    "href": null,
+    "total": 0
+  },
+  "href": "https://api.spotify.com/v1/users/31hgk3yuxwys4s5ta62a3slhx5xu",
+  "id": "31hgk3yuxwys4s5ta62a3slhx5xu",
+  "images": [],
+  "policies": {
+    "opt_in_trial_premium_only_market": false
+  },
+  "product": "premium",
+  "type": "user",
+  "uri": "spotify:user:31hgk3yuxwys4s5ta62a3slhx5xu"
+}

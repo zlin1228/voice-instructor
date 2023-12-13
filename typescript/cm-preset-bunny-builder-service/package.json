@@ -1,0 +1,25 @@
+{
+  "name": "cm-preset-bunny-builder-service",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@fastify/cors": "^8.3.0",
+    "base-core": "file:../base-core",
+    "base-fastify": "file:../base-fastify",
+    "base-kubernetes": "file:../base-kubernetes",
+    "base-mongodb": "file:../base-mongodb",
+    "base-nli": "file:../base-nli",
+    "base-node": "file:../base-node",
+    "base-playwright": "file:../base-playwright",
+    "cm-bunny-host-common": "file:../cm-bunny-host-common",
+    "cm-bunny-host-web-common": "file:../cm-bunny-host-web-common",
+    "cm-preset-bunny-builder-common": "file:../cm-preset-bunny-builder-common"
+  },
+  "devDependencies": {
+    "@types/node": "^20.4.7",
+    "@typescript-eslint/eslint-plugin": "^6.2.1",
+    "@typescript-eslint/parser": "^6.2.1",
+    "eslint": "^8.46.0",
+    "typescript": "^5.2.2"
+  }
+}

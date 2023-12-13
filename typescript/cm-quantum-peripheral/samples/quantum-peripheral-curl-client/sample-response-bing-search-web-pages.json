@@ -1,0 +1,84 @@
+{
+  "webPages": [
+    {
+      "id": "https://api.bing.microsoft.com/api/v7/#WebPages.0",
+      "name": "Cyber manufacturing - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Cyber_manufacturing",
+      "isFamilyFriendly": true,
+      "displayUrl": "https://en.wikipedia.org/wiki/Cyber_manufacturing",
+      "snippet": "Cyber manufacturing is a concept derived from cyber-physical systems (CPS) that refers to a modern manufacturing system that offers an information-transparent environment to facilitate asset management, provide reconfigurability, and maintain productivity."
+    },
+    {
+      "id": "https://api.bing.microsoft.com/api/v7/#WebPages.1",
+      "name": "Cybersecurity for Smart Factories in the Manufacturing Industry",
+      "url": "https://www2.deloitte.com/us/en/pages/energy-and-resources/articles/smart-factory-cybersecurity-manufacturing-industry.html",
+      "isFamilyFriendly": true,
+      "displayUrl": "https://www2.deloitte.com/us/en/pages/energy-and-resources/articles/smart-factory...",
+      "snippet": "Deloitte and the Manufacturers Alliance for Productivity and Innovation (MAPI) have been formally studying cybersecurity in manufacturing and the associated risks since 2016. The 2019 Deloitte and MAPI Smart Factory Study revealed a number of risks relative to smart factory initiatives, from operational to financial and strategic to compliance."
+    },
+    {
+      "id": "https://api.bing.microsoft.com/api/v7/#WebPages.2",
+      "name": "Cyber Manufacture Co. - Crunchbase Company Profile & Funding",
+      "url": "https://www.crunchbase.com/organization/cyber-manufacture-co",
+      "isFamilyFriendly": true,
+      "displayUrl": "https://www.crunchbase.com/organization/cyber-manufacture-co",
+      "snippet": "Cyber Manufacturing Co. sits at the forefront of deploying cutting-edge generative AI technologies in entertainment, gaming, and beyond. Los Angeles, California, United States Seed Private cybermanufacture.co 26,288 Highlights Total Funding Amount $6M Employee Profiles 2 Investors 10 Similar Companies 10 Recent News & Activity • Nov 19, 2021 9"
+    },
+    {
+      "id": "https://api.bing.microsoft.com/api/v7/#WebPages.3",
+      "name": "Cyber Manufacture Co.",
+      "url": "https://www.cybermanufacture.co/",
+      "isFamilyFriendly": true,
+      "displayUrl": "https://www.cybermanufacture.co",
+      "snippet": "Cyber Manufacture Co. is a Los Angeles-based creative studio building next-generation experiences at the intersection of entertainment and technology. We are a diverse team of seasoned entrepreneurs, industry experts, top artists, and designers pushing the boundaries of design and AI. TALK TO Us"
+    },
+    {
+      "id": "https://api.bing.microsoft.com/api/v7/#WebPages.4",
+      "name": "Cyber Manufacture Co. Company Profile: Valuation & Investors | PitchBook",
+      "url": "https://www.pitchbook.com/profiles/company/484138-27",
+      "isFamilyFriendly": true,
+      "displayUrl": "https://www.pitchbook.com/profiles/company/484138-27",
+      "snippet": "The company's platform enhances the human experience of art, fashion, & technology by uniting the physical & digital world, helping clients to convert their physical properties into NFTs. Contact Information Website cybermanufacture.co Ownership Status Privately Held (backing) Financing Status Venture Capital-Backed Primary Industry"
+    },
+    {
+      "id": "https://api.bing.microsoft.com/api/v7/#WebPages.5",
+      "name": "Manufacturer Cybersecurity and supply chain: PwC",
+      "url": "https://www.pwc.com/us/en/industries/industrial-products/library/cyber-supply-chain.html",
+      "isFamilyFriendly": true,
+      "displayUrl": "https://www.pwc.com/us/en/industries/industrial-products/library/cyber-supply-chain.html",
+      "snippet": "Manufacturers ramp up cyber defenses as supply-chain bottlenecks—and vulnerabilities—deepen. Manufacturers worldwide are being targeted by cybercriminals at an astonishing—and increasing—rate. The rise in cyber attacks is particularly concerning given that it’s occurring during a period of entrenched supply chain bottlenecks."
+    },
+    {
+      "id": "https://api.bing.microsoft.com/api/v7/#WebPages.6",
+      "name": "Fourth Industrial Revolution - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Fourth_Industrial_Revolution",
+      "isFamilyFriendly": true,
+      "displayUrl": "https://en.wikipedia.org/wiki/Fourth_Industrial_Revolution",
+      "snippet": "The Fourth Industrial Revolution, 4IR, or Industry 4.0, [1] conceptualises rapid change to technology, industries, and societal patterns and processes in the 21st century due to increasing interconnectivity and smart automation. The term was popularised in 2015 by Klaus Schwab, the World Economic Forum founder and executive chairman, and has ..."
+    },
+    {
+      "id": "https://api.bing.microsoft.com/api/v7/#WebPages.7",
+      "name": "2022 Industry Threat Recap: Manufacturing",
+      "url": "https://securityintelligence.com/articles/2022-industry-threat-recap-manufacturing/",
+      "isFamilyFriendly": true,
+      "displayUrl": "https://securityintelligence.com/articles/2022-industry-threat-recap-manufacturing",
+      "snippet": "2022 saw a new wave of cyber threats against the manufacturing sector. Here's a look back at the previous year and what to expect from the future. ... Security Threats Plagued Manufacturers in 2022."
+    },
+    {
+      "id": "https://api.bing.microsoft.com/api/v7/#WebPages.8",
+      "name": "Manufacturing Cybersecurity – Industry Regulation Services - Fortinet",
+      "url": "https://www.fortinet.com/solutions/industries/manufacturing",
+      "isFamilyFriendly": true,
+      "displayUrl": "https://www.fortinet.com/solutions/industries/manufacturing",
+      "snippet": "Flexible Integration, Including OT-specific Manufacturing Security Solutions. The Fortinet Security Fabric provides a single-vendor, end-to-end, integrated cybersecurity architecture across IT and OT, from protection to detection to response. This enables operational and cost efficiencies and improves protection against fast-moving threats."
+    },
+    {
+      "id": "https://api.bing.microsoft.com/api/v7/#WebPages.9",
+      "name": "What's Wrong with Manufacturing?",
+      "url": "https://thehackernews.com/2023/03/whats-wrong-with-manufacturing.html",
+      "isFamilyFriendly": true,
+      "displayUrl": "https://thehackernews.com/2023/03/whats-wrong-with-manufacturing.html",
+      "snippet": "The Manufacturing industry once again generated the highest number of Incidents as a percentage of the total in our CyberSOC dataset. 31% of all Incidents are generated for the 28% of our clients that are from this sector. The Incident data lacks context, however. To establish a baseline for comparison, we assign customers a 'Coverage Score ..."
+    }
+  ]
+}

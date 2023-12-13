@@ -1,0 +1,35 @@
+[
+  {
+    "geoLocation": {
+      "latitude": 34.2020063,
+      "longitude": -118.5923219
+    },
+    "viewport": {
+      "northeast": {
+        "latitude": 34.20315217989273,
+        "longitude": -118.5910264201073
+      },
+      "southwest": {
+        "latitude": 34.20045252010729,
+        "longitude": -118.5937260798928
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+    "name": "CVS",
+    "openNow": true,
+    "businessStatus": "OPERATIONAL",
+    "placeId": "ChIJU9iRbxKcwoARpF0i_4e_Q8w",
+    "rating": 2.6,
+    "userRatingsTotal": 58,
+    "types": [
+      "drugstore",
+      "convenience_store",
+      "health",
+      "clothing_store",
+      "store",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ]
+  }
+]

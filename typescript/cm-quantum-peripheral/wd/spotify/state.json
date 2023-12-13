@@ -1,0 +1,782 @@
+{
+  "cookies": [
+    {
+      "name": "X-AB",
+      "value": "0d6e407936704bd380072f5891d28b0e",
+      "domain": "sc-static.net",
+      "path": "/scevent.min.js",
+      "expires": 1682824603.235102,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_GRECAPTCHA",
+      "value": "09ABAvrlS2pgcmKY-NGhmjcucTgPXcJkcby99PqlNxmlSmw6Z6IDt4brVz9mGdyCY9rBNzHK8FkbvrP8r-bJmtPZ8",
+      "domain": "www.google.com",
+      "path": "/recaptcha",
+      "expires": 1698290633.980492,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "marketing_vistor_id",
+      "value": "b81abcb4-f74b-4be0-896f-4eebdd7f1bbd",
+      "domain": ".uber.com",
+      "path": "/",
+      "expires": 1714274186.254112,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "jwt-session",
+      "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2ODI3MzgxODUsImV4cCI6MTY4MjgyNDU4NX0.V4YZf41dO1lzJ2hmD8A9ZnzJA2DxEp2knZHMb9um94I",
+      "domain": "m.uber.com",
+      "path": "/",
+      "expires": 1682824583.812995,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "usl_rollout_id",
+      "value": "611cae9b-cffe-4708-97bd-cbdce5fdab82",
+      "domain": ".uber.com",
+      "path": "/",
+      "expires": 1714274183.836467,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_ua",
+      "value": "{\"session_id\":\"bfa4abae-5724-4723-a7fb-5301806e84c6\",\"session_time_ms\":1682738185810}",
+      "domain": "auth.uber.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "udi-id",
+      "value": "BW/2sVTWiuaxnQVB7Z4M2ADGMcAr81I/Wv+Y3Ib5q6+9fgjByJ7ew+DoLhKyb1kSovedYZOIXBhp5HaxSgFQLHVmVRNYwHOLJyS7ozYSpp5QjTzbzYzz1i03Fw06MlnT0626OIKpuAzV2HH23NRVrpK+e7UuC6QUcM1cjY0PljFhY4ShMg8H+SUY24FTm2uryHodvzbzktV+95vHlBVkEw==mQzSLoBPEn3qDBVkNU20Aw==gZd/qTjOFhA63hawG/z4Z8iIq4SGeVrCozwRvwNS3Z4=",
+      "domain": "auth.uber.com",
+      "path": "/",
+      "expires": 1717298183.889515,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "jwt-session",
+      "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2ODI3MzgxODUsImV4cCI6MTY4MjgyNDU4NX0.Oyoqg1tT9IRVbt8yg_45imOBRxFqb4Qhf0WzAdKpBHs",
+      "domain": "auth.uber.com",
+      "path": "/",
+      "expires": 1682824583.889532,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_cc-x",
+      "value": "MWNjYjAzZDEtYTQxNS00MWQ4LTkzZDEtMGVjNTlmZWJhMzdkOjE2ODI3MzgxODYxNTY",
+      "domain": "www.cdn-net.com",
+      "path": "/",
+      "expires": 1698290184.216562,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_cc",
+      "value": "AYHoWSy8ULPjQt8sGyrO2nqe",
+      "domain": "auth.uber.com",
+      "path": "/",
+      "expires": 1714274184,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "udi-fingerprint",
+      "value": "PqmA0GgByxdeBnYWOQ2xmFMNLbdJiJfISyrKFyEuTPA8Cd80QbiBwAW/4WnEi+YoeKT3jePhfFgqFBWa9lptSA==n1c6F6HZI2Z6rVvDgLQCFz7CDIm/pLfhtzeiFNIr/Rg=",
+      "domain": "auth.uber.com",
+      "path": "/",
+      "expires": 1717298184.552344,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "sp_t",
+      "value": "5c045b16b806dccd20f2204a2b6565f1",
+      "domain": ".spotify.com",
+      "path": "/",
+      "expires": 1714274634.186864,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "sp_landing",
+      "value": "https%3A%2F%2Fopen.spotify.com%2F%3Fsp_cid%3D5c045b16b806dccd20f2204a2b6565f1%26device%3Ddesktop",
+      "domain": ".spotify.com",
+      "path": "/",
+      "expires": 1682824601.765602,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_gcl_au",
+      "value": "1.1.225087079.1682738203",
+      "domain": ".spotify.com",
+      "path": "/",
+      "expires": 1690514202,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "UID",
+      "value": "136a737f711aebe5459719c1682738205",
+      "domain": ".scorecardresearch.com",
+      "path": "/",
+      "expires": 1717298634.314456,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "sss",
+      "value": "1",
+      "domain": "open.spotify.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_gid",
+      "value": "GA1.2.737637721.1682738203",
+      "domain": ".spotify.com",
+      "path": "/",
+      "expires": 1682825034,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_scid",
+      "value": "69caf678-3946-49dd-b30b-c254188d0d50",
+      "domain": ".spotify.com",
+      "path": "/",
+      "expires": 1716924901,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_fbp",
+      "value": "fb.1.1682738203302.1685527503",
+      "domain": ".spotify.com",
+      "path": "/",
+      "expires": 1690514634,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "sp_adid",
+      "value": "c42079d1-d35c-4a93-8204-b50454bd7947",
+      "domain": ".spotify.com",
+      "path": "/",
+      "expires": 1714274634.356066,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "muc_ads",
+      "value": "6b8cbfe3-583b-4354-84dc-e79de8fc0816",
+      "domain": ".t.co",
+      "path": "/",
+      "expires": 1717298203.349311,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "personalization_id",
+      "value": "\"v1_7/xVfad8t3ChnxtpjlV7IA==\"",
+      "domain": ".twitter.com",
+      "path": "/",
+      "expires": 1717298203.412548,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_pin_unauth",
+      "value": "dWlkPU5HSm1ZMlUzWWpZdE56RXdOQzAwTkRsbUxUaGhOVGd0WW1ZeVl6aGxOR1U1TUdNeQ",
+      "domain": ".open.spotify.com",
+      "path": "/",
+      "expires": 1714274634,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "sc_at",
+      "value": "v2|H4sIAAAAAAAAAE3GyRHAMAgDwIqYEQJikm6iHFW4eH+9r+0KfRiv4X9uy2xYh8oE0VU8g5yeuPxojmii5lYsnq65/EAAAAA=",
+      "domain": ".snapchat.com",
+      "path": "/",
+      "expires": 1716434203.801434,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "TapAd_TS",
+      "value": "1682738205657",
+      "domain": ".tapad.com",
+      "path": "/",
+      "expires": 1687922203.743628,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "TapAd_DID",
+      "value": "604a9236-511d-4c99-87bc-b18ce03fd8fa",
+      "domain": ".tapad.com",
+      "path": "/",
+      "expires": 1687922203.743661,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "did",
+      "value": "E8IAUpKlWT-UZvj2",
+      "domain": ".pippio.com",
+      "path": "/",
+      "expires": 1714274203.724846,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "didts",
+      "value": "1682738205",
+      "domain": ".pippio.com",
+      "path": "/",
+      "expires": 1714274203.724893,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "nnls",
+      "value": "",
+      "domain": ".pippio.com",
+      "path": "/",
+      "expires": 1687922203.7249,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "pxrc",
+      "value": "CJ2YsqIGEgYIgr0rEAA=",
+      "domain": ".pippio.com",
+      "path": "/",
+      "expires": 1687922203.724905,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "TapAd_3WAY_SYNCS",
+      "value": "",
+      "domain": ".tapad.com",
+      "path": "/",
+      "expires": 1687922203.743668,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_sctr",
+      "value": "1%7C1682726400000",
+      "domain": ".spotify.com",
+      "path": "/",
+      "expires": 1716924901,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "li_sugr",
+      "value": "7ae521bd-bdb7-4f09-a26a-f91ba9fe0b4c",
+      "domain": ".linkedin.com",
+      "path": "/",
+      "expires": 1690514203.871715,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "bcookie",
+      "value": "\"v=2&66fe3922-1cb2-4556-8f45-a057d9541ec1\"",
+      "domain": ".linkedin.com",
+      "path": "/",
+      "expires": 1714274203.871743,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "lidc",
+      "value": "\"b=TGST00:s=T:r=T:a=T:p=T:g=3117:u=1:x=1:i=1682738205:t=1682824605:v=2:sig=AQEtoQhpAWbiuT2JzGAw1y92qbTdPpzg\"",
+      "domain": ".linkedin.com",
+      "path": "/",
+      "expires": 1682824603.871757,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "__Host-device_id",
+      "value": "AQAFszfrvTn9st3-PTvMIkziAXD3aOlPlWJBDGe6U0ub5ZAyPxVio1o55a6Q0U0hzzOG7hoQCyIZxwJ-iIH4PMQHb5AXO2dt8Xo",
+      "domain": "accounts.spotify.com",
+      "path": "/",
+      "expires": 1717298204.909323,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "__Secure-TPASESSION",
+      "value": "AQC3k6yKpye2DBdwIz2pU4uogba+9QnWKf81mF07UYJHMiu8QxF4EMkfhSAXphcOACrxT9HihiFmMw9f+FLU1N+Tmp4Ez/bhfFs=",
+      "domain": ".accounts.spotify.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "sp_tr",
+      "value": "true",
+      "domain": ".accounts.spotify.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "remember",
+      "value": "developer%40cybermanufacture.co",
+      "domain": "accounts.spotify.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "sp_dc",
+      "value": "AQAAqokQAwSRsHghme7E9pZAM1veCne8ml9PW5KHXbaPcRcnlsRSu9iFz_vZspOf_Pp-ZP_Fw3g5KJgsRmKCf08tGGw5T5jxQXccjvD4Ki9u04sYbBmYdsD_dijBkUXIlsHbmjB90tuxRN5cUmTfUwGMgKJfmtzK",
+      "domain": ".spotify.com",
+      "path": "/",
+      "expires": 1714274228.390952,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "sp_sso_csrf_token",
+      "value": "013acda71966bb94a5bd915fbb62fe9ab74753412631363832373338323330323435",
+      "domain": ".accounts.spotify.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "sp_key",
+      "value": "468495e6-02ba-4976-b44e-84fe8ee4f95f",
+      "domain": ".spotify.com",
+      "path": "/",
+      "expires": 1714274228.3911,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "__Host-sp_csrf_sid",
+      "value": "fcb1f14af0a0aad81e42de89ede8a06eee9ecdc54e3a5ca2e0d4a901f3cbce71",
+      "domain": "accounts.spotify.com",
+      "path": "/",
+      "expires": 1682741828.391137,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "YSC",
+      "value": "oRigEuLfyRg",
+      "domain": ".youtube.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "VISITOR_INFO1_LIVE",
+      "value": "jHhXpyDEVSk",
+      "domain": ".youtube.com",
+      "path": "/",
+      "expires": 1698290515.905512,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "PREF",
+      "value": "tz=UTC",
+      "domain": ".youtube.com",
+      "path": "/",
+      "expires": 1717298522.961607,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_scid_r",
+      "value": "69caf678-3946-49dd-b30b-c254188d0d50",
+      "domain": ".spotify.com",
+      "path": "/",
+      "expires": 1716925332,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_ga",
+      "value": "GA1.1.1823979159.1682738203",
+      "domain": ".spotify.com",
+      "path": "/",
+      "expires": 1717298634.301729,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_ga_ZWG1NSHWD8",
+      "value": "GS1.1.1682738203.1.1.1682738634.0.0.0",
+      "domain": ".spotify.com",
+      "path": "/",
+      "expires": 1717298634.314162,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "OptanonConsent",
+      "value": "isGpcEnabled=0&datestamp=Sat+Apr+29+2023+03%3A23%3A54+GMT%2B0000+(Coordinated+Universal+Time)&version=6.26.0&isIABGlobal=false&hosts=&consentId=32a3083d-e026-49b8-a237-dcf9126c0de3&interactionCount=1&landingPath=NotLandingPage&groups=BG154%3A1%2Ct00%3A1%2CBG155%3A1%2Cs00%3A1%2Cf00%3A1%2Cm00%3A1%2Ci00%3A1%2Cf11%3A1&AwaitingReconsent=false",
+      "domain": ".spotify.com",
+      "path": "/",
+      "expires": 1714274634,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "rlas3",
+      "value": "mRbc8MuLWHDdyJ/fVd1wokvdRst3FYLTtC3Yvy6NnRc=",
+      "domain": ".rlcdn.com",
+      "path": "/",
+      "expires": 1714274634.828733,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "pxrc",
+      "value": "CJ2YsqIGEgUI6AcQABIFCOhHEAASBwi66gEQrwMSBgi46wEQGg==",
+      "domain": ".rlcdn.com",
+      "path": "/",
+      "expires": 1687922634.828771,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "IDE",
+      "value": "AHWqTUnFIjgY13toMMBhzaS8LDBby9xzBZQRU6E34zA6uNPzwrC8ITC4PwTw5DzNnx4",
+      "domain": ".doubleclick.net",
+      "path": "/",
+      "expires": 1717298634.72225,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://auth.uber.com",
+      "localStorage": [
+        {
+          "name": "_cc_ck",
+          "value": "AYHoWSy8ULPjQt8sGyrO2nqe"
+        }
+      ]
+    },
+    {
+      "origin": "https://www.google.com",
+      "localStorage": [
+        {
+          "name": "rc::a",
+          "value": "ZmozbGszd3h4ZzJt"
+        }
+      ]
+    },
+    {
+      "origin": "https://open.spotify.com",
+      "localStorage": [
+        {
+          "name": "anonymous:toggleNowPlayingView",
+          "value": "true"
+        },
+        {
+          "name": "anonymous:npv-onboarding-dismissed",
+          "value": "false"
+        },
+        {
+          "name": "anonymous:ylx-expanded-state-nav-bar-width",
+          "value": "704"
+        },
+        {
+          "name": "ES|d8a5ed958d274c2e8ee717e6a4b0971d|SEQ_NUM|LTEwNDM5MDA2MTY=|KmInteraction",
+          "value": "000000002"
+        },
+        {
+          "name": "u_sclid",
+          "value": "2813c0cd-eeae-4b01-b327-975d27a67f35"
+        },
+        {
+          "name": "ES|d8a5ed958d274c2e8ee717e6a4b0971d|STORAGE_ID",
+          "value": "ff8542b6-df29-462c-9407-11a09a8f0121"
+        },
+        {
+          "name": "31hgk3yuxwys4s5ta62a3slhx5xu:nav-bar-width",
+          "value": "232"
+        },
+        {
+          "name": "anonymous:ylx-default-state-nav-bar-width",
+          "value": "294"
+        },
+        {
+          "name": "31hgk3yuxwys4s5ta62a3slhx5xu:npv-onboarding-dismissed-time",
+          "value": "1682047028819"
+        },
+        {
+          "name": "31hgk3yuxwys4s5ta62a3slhx5xu:lintHtmlWithCss",
+          "value": "false"
+        },
+        {
+          "name": "anonymous:ylx-sidebar-state",
+          "value": "0"
+        },
+        {
+          "name": "31hgk3yuxwys4s5ta62a3slhx5xu:remote-config-overrides",
+          "value": "{}"
+        },
+        {
+          "name": "anonymous:nowPlayingCoverExpandedState",
+          "value": "\"collapsed\""
+        },
+        {
+          "name": "_pin_unauth_ls",
+          "value": "{\"value\":\"dWlkPU5HSm1ZMlUzWWpZdE56RXdOQzAwTkRsbUxUaGhOVGd0WW1ZeVl6aGxOR1U1TUdNeQ\",\"expires\":\"2024-04-28T03:23:54.356Z\"}"
+        },
+        {
+          "name": "31hgk3yuxwys4s5ta62a3slhx5xu:npv-onboarding-never-show-again",
+          "value": "false"
+        },
+        {
+          "name": "31hgk3yuxwys4s5ta62a3slhx5xu:nowPlayingCoverExpandedState",
+          "value": "\"collapsed\""
+        },
+        {
+          "name": "anonymous:npv-onboarding-never-show-again",
+          "value": "false"
+        },
+        {
+          "name": "31hgk3yuxwys4s5ta62a3slhx5xu:connect-nudge-triggered-at",
+          "value": "\"1970-01-01T00:00:00.000Z\""
+        },
+        {
+          "name": "ES|d8a5ed958d274c2e8ee717e6a4b0971d|SEQ_NUM|LTEwNDM5MDA2MTY=|UbiProd1Interaction",
+          "value": "000000002"
+        },
+        {
+          "name": "ES|d8a5ed958d274c2e8ee717e6a4b0971d|SEQ_NUM|LTEwNDM5MDA2MTY=|WindowSize",
+          "value": "000000002"
+        },
+        {
+          "name": "anonymous:nav-bar-width",
+          "value": "232"
+        },
+        {
+          "name": "31hgk3yuxwys4s5ta62a3slhx5xu:isPlaybackBarRemainingTimeToggled",
+          "value": "false"
+        },
+        {
+          "name": "ES|d8a5ed958d274c2e8ee717e6a4b0971d|SEQ_NUM|LTEwNDM5MDA2MTY=|KmPageView",
+          "value": "000000004"
+        },
+        {
+          "name": "31hgk3yuxwys4s5ta62a3slhx5xu:toggleNowPlayingView",
+          "value": "true"
+        },
+        {
+          "name": "31hgk3yuxwys4s5ta62a3slhx5xu:ylx-expanded-state-nav-bar-width",
+          "value": "704"
+        },
+        {
+          "name": "ES|d8a5ed958d274c2e8ee717e6a4b0971d|SEQ_NUM|MTY3MjE3MjQxMQ==|EventSenderStats2NonAuth",
+          "value": "000000016"
+        },
+        {
+          "name": "anonymous:npv-onboarding-dismissed-time",
+          "value": "1682047002376"
+        },
+        {
+          "name": "anonymous:remote-config-overrides",
+          "value": "{}"
+        },
+        {
+          "name": "u_sclid_r",
+          "value": "2813c0cd-eeae-4b01-b327-975d27a67f35"
+        },
+        {
+          "name": "31hgk3yuxwys4s5ta62a3slhx5xu:expanded-folder",
+          "value": "[]"
+        },
+        {
+          "name": "loglevel",
+          "value": "WARN"
+        },
+        {
+          "name": "ES|d8a5ed958d274c2e8ee717e6a4b0971d|SEQ_NUM|LTEwNDM5MDA2MTY=|WwwExperiments",
+          "value": "000000001"
+        },
+        {
+          "name": "anonymous:lintHtmlWithCss",
+          "value": "false"
+        },
+        {
+          "name": "31hgk3yuxwys4s5ta62a3slhx5xu:npv-onboarding-dismissed",
+          "value": "false"
+        },
+        {
+          "name": "ES|d8a5ed958d274c2e8ee717e6a4b0971d|SEQ_NUM|LTEwNDM5MDA2MTY=|UbiProd1Impression",
+          "value": "000000023"
+        },
+        {
+          "name": "31hgk3yuxwys4s5ta62a3slhx5xu:ylx-default-state-nav-bar-width",
+          "value": "294"
+        },
+        {
+          "name": "ES|d8a5ed958d274c2e8ee717e6a4b0971d|INSTALLATION_ID",
+          "value": "5c045b16b806dccd20f2204a2b6565f1"
+        },
+        {
+          "name": "31hgk3yuxwys4s5ta62a3slhx5xu:ylx-sidebar-state",
+          "value": "0"
+        },
+        {
+          "name": "anonymous:isPlaybackBarRemainingTimeToggled",
+          "value": "false"
+        },
+        {
+          "name": "ES|d8a5ed958d274c2e8ee717e6a4b0971d|SEQ_NUM|LTEwNDM5MDA2MTY=|UbiExpr2PageView",
+          "value": "000000003"
+        },
+        {
+          "name": "ES|d8a5ed958d274c2e8ee717e6a4b0971d|GLOBAL_SEQ_NUM",
+          "value": "000000037"
+        },
+        {
+          "name": "_grecaptcha",
+          "value": "09ABAvrlRKiQHbFIp6GZ697IscReo9dVUHSS4FQOl73PSjnYn1_qr8XXNYX86joUME6AWN3ZDUAZ0vxytuwDONwyqCrZtbUTp1o_yINw"
+        }
+      ]
+    },
+    {
+      "origin": "https://tr.snapchat.com",
+      "localStorage": [
+        {
+          "name": "u_sclid",
+          "value": "313bb9f8-f9e0-4da7-9bef-a9d98d909b72"
+        },
+        {
+          "name": "u_sclid_r",
+          "value": "313bb9f8-f9e0-4da7-9bef-a9d98d909b72"
+        }
+      ]
+    },
+    {
+      "origin": "https://accounts.spotify.com",
+      "localStorage": [
+        {
+          "name": "com.spotify.single.item.cache:accounts-sso",
+          "value": "{\"key\":\"53946b202a94f616\",\"value\":{\"#v\":\"1\",\"#configurationAssignmentId\":\"3c126547-57e4-d518-fe2a-64d8fa1171f3\",\"#groupIds\":{},\"#fetchTimeMillis\":1682738207212}}"
+        },
+        {
+          "name": "_grecaptcha",
+          "value": "09ABAvrlR3MVxbVuhTzdadLc9Z_tRhGn-7LO5YAFJfm4OfZvyV7ZtDgbFS9Vpblqy1oQp4tL1pMM4s7ZsgUIlDk9x4XpnVRgv85i-RjQ"
+        }
+      ]
+    },
+    {
+      "origin": "https://www.youtube.com",
+      "localStorage": [
+        {
+          "name": "yt-remote-device-id",
+          "value": "{\"data\":\"39ba02ca-3baa-443b-9eee-69f53a8aae3e\",\"expiration\":1714274518162,\"creation\":1682738518162}"
+        },
+        {
+          "name": "yt-player-headers-readable",
+          "value": "{\"data\":\"true\",\"expiration\":1685330566030,\"creation\":1682738566030}"
+        },
+        {
+          "name": "ytidb::LAST_RESULT_ENTRY_KEY",
+          "value": "{\"data\":{\"hasSucceededOnce\":true},\"expiration\":1685330566722,\"creation\":1682738566722}"
+        },
+        {
+          "name": "yt-remote-connected-devices",
+          "value": "{\"data\":\"[]\",\"expiration\":1682824918166,\"creation\":1682738518166}"
+        },
+        {
+          "name": "V254bd2c3||::yt-player::yt-player-lv",
+          "value": "{\"data\":\"{}\",\"creation\":1682738518193}"
+        },
+        {
+          "name": "yt-player-bandwidth",
+          "value": "{\"data\":\"{\\\"delay\\\":0.013433349609375,\\\"stall\\\":0,\\\"byterate\\\":1888869.3637454982,\\\"init\\\":1682738518098.3}\",\"expiration\":1685330605993,\"creation\":1682738605993}"
+        }
+      ]
+    }
+  ]
+}

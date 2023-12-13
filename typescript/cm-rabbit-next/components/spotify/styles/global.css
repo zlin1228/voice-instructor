@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'Avenir Next Medium';
+    src: url('/spotify/fonts/AvenirNext-Medium.otf') format('otf');
+    font-style: normal;
+    font-weight: 500; /* medium */
+  }
+
+  @font-face {
+     font-family: 'Avenir Next Regular';
+     src: url('/spotify/fonts/AvenirNext-Bold.otf') format('otf');
+     font-style: normal;
+     font-weight: 700; /* bold */
+   }
+  

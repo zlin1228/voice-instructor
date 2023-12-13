@@ -1,0 +1,24 @@
+{
+  "name": "cm-mediasoup",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@fastify/cors": "^8.2.1",
+    "@types/ws": "^8.5.4",
+    "base-core": "file:../base-core",
+    "base-fastify": "file:../base-fastify",
+    "base-node": "file:../base-node",
+    "cm-streamer-common": "file:../cm-streamer-common",
+    "express": "^4.18.2",
+    "fastify": "^4.17.0",
+    "mediasoup": "^3.11.24",
+    "socket.io": "^4.6.1",
+    "ws": "^8.13.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/node": "^18.15.13",
+    "@typescript-eslint/eslint-plugin": "^5.59.0",
+    "typescript": "^5.2.2"
+  }
+}

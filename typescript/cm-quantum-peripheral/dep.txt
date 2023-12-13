@@ -1,0 +1,7 @@
+base-core
+base-node
+base-fastify
+base-gcp
+base-playwright
+cm-quantum-peripheral-common
+cm-spotify-client

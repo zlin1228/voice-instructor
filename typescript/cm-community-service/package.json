@@ -1,0 +1,21 @@
+{
+  "name": "cm-community-service",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@fastify/cors": "^8.3.0",
+    "base-core": "file:../base-core",
+    "base-fastify": "file:../base-fastify",
+    "base-nli": "file:../base-nli",
+    "base-mongodb": "file:../base-mongodb",
+    "base-node": "file:../base-node",
+    "cm-community-common": "file:../cm-community-common"
+  },
+  "devDependencies": {
+    "@types/node": "^20.4.7",
+    "@typescript-eslint/eslint-plugin": "^6.2.1",
+    "@typescript-eslint/parser": "^6.2.1",
+    "eslint": "^8.46.0",
+    "typescript": "^5.2.2"
+  }
+}

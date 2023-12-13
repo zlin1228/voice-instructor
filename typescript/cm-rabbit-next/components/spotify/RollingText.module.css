@@ -1,0 +1,24 @@
+  .marquee {
+    position: relative;
+    height: 20px;
+    width: 287px;
+    font-size: 20;
+    font-weight: 600;
+    -webkit-mask-image: linear-gradient(to left, transparent, black 15%, black);
+    mask-image: linear-gradient(to left, transparent, black 15%, black);
+    color: black;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  
+  .marquee span {
+    position: relative;
+    display: inline-block;
+    white-space: nowrap;
+    animation: marquee 10s linear forwards;
+  }
+
+  @keyframes marquee {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(calc(-100% + 260px)); }
+  }

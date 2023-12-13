@@ -1,0 +1,16 @@
+{
+  "name": "cm-bunny-buider-common",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "base-core": "file:../base-core",
+    "cm-bunny-host-common": "file:../cm-bunny-host-common",
+    "cm-bunny-host-web-common": "file:../cm-bunny-host-web-common"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.2.1",
+    "@typescript-eslint/parser": "^6.2.1",
+    "eslint": "^8.46.0",
+    "typescript": "^5.2.2"
+  }
+}

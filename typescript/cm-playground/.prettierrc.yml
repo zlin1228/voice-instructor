@@ -1,0 +1,4 @@
+overrides:
+  - files: "*.ts|*.tsx"
+    options:
+      semi: false

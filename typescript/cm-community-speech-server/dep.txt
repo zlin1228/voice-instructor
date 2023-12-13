@@ -1,0 +1,9 @@
+base-core
+base-node
+base-fastify
+base-mongodb
+base-gcp
+base-playwright
+base-media
+base-kubernetes
+cm-community-common

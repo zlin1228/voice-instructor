@@ -1,0 +1,364 @@
+// Import required libraries and modules
+import express from "express"
+import http from "http"
+import { Server, Socket } from "socket.io"
+import {
+  Worker,
+  Router,
+  WebRtcTransport,
+  PlainTransport,
+  PlainTransportOptions,
+  WebRtcTransportOptions,
+} from "mediasoup/node/lib/types"
+
+import * as mediasoup from "mediasoup"
+
+// Global variables
+let app: express.Application
+let server: http.Server
+let io: Server
+let worker: Worker
+let router: Router
+let webrtcTransports: Map<string, WebRtcTransport>
+let rtpTransport: PlainTransport
+
+// Functions
+function initExpress(): void {
+  // Create Express app
+  app = express()
+
+  // Create an HTTP server using the Express app
+  server = http.createServer(app)
+
+  // Serve static files from the 'public' directory
+  app.use(express.static("public"))
+
+  // Handle any other routes as a 404 Not Found
+  app.use((_req, res, _next) => {
+    res.status(404).send("Not Found")
+  })
+}
+
+function initSocketIO(): void {
+  // Create a Socket.IO instance attached to the HTTP server
+  io = new Server(server, {
+    cors: {
+      origin: "*",
+      methods: ["GET", "POST"],
+    },
+  })
+}
+
+async function initMediasoup(): Promise<void> {
+  try {
+    // Create a mediasoup Worker
+    worker = await createWorker()
+
+    // Create a mediasoup Router
+    router = await createRouter(worker)
+
+    // Create a WebRTC transport map to manage WebRTC transports for clients
+    webrtcTransports = new Map<string, WebRtcTransport>()
+
+    // Create a Plain RTP transport for receiving the RTP stream
+    rtpTransport = await createRtpTransport(router)
+
+    // Connect the incoming RTP stream to the RTP transport
+    // You should replace the following RTP parameters with the actual values for your stream
+    const rtpParameters = {
+      codecs: [
+        {
+          mimeType: "audio/opus",
+          payloadType: 111,
+          clockRate: 48000,
+          channels: 2,
+        },
+      ],
+      encodings: [
+        {
+          ssrc: 123456,
+          rtcp: {
+            ssrc: 123457,
+          },
+        },
+      ],
+    }
+    await connectRtpStream(rtpParameters)
+  } catch (error) {
+    console.error(`Error initializing mediasoup: ${error}`)
+  }
+}
+
+async function createWorker(): Promise<Worker> {
+  const worker = await mediasoup.createWorker({
+    logLevel: "warn",
+    logTags: ["info", "ice", "dtls", "rtp", "srtp", "rtcp"],
+    rtcMinPort: 10000,
+    rtcMaxPort: 10100,
+  })
+
+  worker.on("died", () => {
+    console.error("mediasoup Worker died, exiting in 2 seconds...")
+    setTimeout(() => process.exit(1), 2000)
+  })
+
+  return worker
+}
+
+async function createRouter(worker: Worker): Promise<Router> {
+  const mediaCodecs = [
+    {
+      kind: "audio",
+      mimeType: "audio/opus",
+      clockRate: 48000,
+      channels: 2,
+    } as const,
+  ]
+
+  return await worker.createRouter({ mediaCodecs })
+}
+
+async function createWebRtcTransport(): Promise<WebRtcTransport> {
+  try {
+    // WebRtcTransport options
+    const transportOptions: WebRtcTransportOptions = {
+      listenIps: [
+        {
+          ip: "0.0.0.0", // Replace this with the IP address where you want to listen for WebRTC traffic
+          //   announcedIp: undefined,
+        } as const,
+      ],
+      enableUdp: true,
+      enableTcp: true,
+      preferUdp: true,
+      initialAvailableOutgoingBitrate: 600000,
+    }
+
+    // Create a WebRtcTransport using the options
+    const transport = await router.createWebRtcTransport(transportOptions)
+
+    return transport
+  } catch (error) {
+    console.error(`Error creating WebRTC transport: ${error}`)
+    throw error
+  }
+}
+
+async function createRtpTransport(router: Router): Promise<PlainTransport> {
+  const rtpTransportOptions: PlainTransportOptions = {
+    listenIp: {
+      ip: "0.0.0.0", // Replace this with the IP address where you want to listen for the RTP stream
+      //   announcedIp: undefined,
+    },
+    rtcpMux: false,
+    comedia: true,
+  }
+
+  return await router.createPlainTransport(rtpTransportOptions)
+}
+
+function handleSocketConnection(socket: Socket): void {
+  // Handle 'connect' event
+  socket.on("connect", async () => {
+    await handleClientConnect(socket)
+  })
+
+  // Handle 'produce' event
+  socket.on("produce", async (data) => {
+    await handleClientProduce(socket, data)
+  })
+
+  // Handle 'consume' event
+  socket.on("consume", async (data) => {
+    await handleClientConsume(socket, data)
+  })
+
+  // Handle 'disconnect' event
+  socket.on("disconnect", () => {
+    handleClientDisconnect(socket)
+  })
+}
+async function handleClientConnect(socket: Socket): Promise<void> {
+  try {
+    // Send the mediasoup Router RTP capabilities to the client
+    socket.emit("routerRtpCapabilities", router.rtpCapabilities)
+  } catch (error) {
+    console.error(`Error handling client connect event: ${error}`)
+  }
+}
+
+async function handleClientProduce(socket: Socket, data: any): Promise<void> {
+  try {
+    // Get the client's WebRTC transport
+    const transport = webrtcTransports.get(socket.id)
+
+    if (!transport) {
+      console.error(`WebRTC transport not found for client ${socket.id}`)
+      return
+    }
+
+    // Create a mediasoup Producer for the client using the WebRTC transport and the provided data
+    const producerId = await createProducer(transport, data.rtpParameters)
+
+    // Store the Producer ID for the client
+    socket.emit("producerId", producerId)
+  } catch (error) {
+    console.error(`Error handling client produce event: ${error}`)
+  }
+}
+
+async function handleClientConsume(socket: Socket, data: any): Promise<void> {
+  try {
+    // Get the client's WebRTC transport
+    const transport = webrtcTransports.get(socket.id)
+
+    if (!transport) {
+      console.error(`WebRTC transport not found for client ${socket.id}`)
+      return
+    }
+
+    // Get the Producer by ID
+    const producer = router.getProducerById(data.producerId)
+
+    if (!producer) {
+      console.error(`Producer not found for ID: ${data.producerId}`)
+      return
+    }
+
+    // Create a mediasoup Consumer for the client using the WebRTC transport and the Producer
+    const consumer = await transport.consume({
+      producerId: data.producerId,
+      rtpCapabilities: data.rtpCapabilities,
+    })
+
+    // Send the Consumer ID and Consumer RTP parameters back to the client
+    socket.emit("consumerParameters", {
+      consumerId: consumer.id,
+      rtpParameters: consumer.rtpParameters,
+    })
+  } catch (error) {
+    console.error(`Error handling client consume event: ${error}`)
+  }
+}
+
+function handleClientDisconnect(socket: Socket): void {
+  try {
+    // Get the client's WebRTC transport and close it
+    const transport = webrtcTransports.get(socket.id)
+    if (transport) {
+      transport.close()
+      webrtcTransports.delete(socket.id)
+    }
+
+    console.log(`Client ${socket.id} disconnected`)
+  } catch (error) {
+    console.error(`Error handling client disconnect event: ${error}`)
+  }
+}
+
+async function createProducer(
+  transport: WebRtcTransport | PlainTransport,
+  rtpParameters: any
+): Promise<string> {
+  try {
+    const producer = await transport.produce({ kind: "audio", rtpParameters })
+
+    producer.on("transportclose", () => {
+      producer.close()
+      console.log(`Producer (ID: ${producer.id}) closed due to transport close`)
+    })
+
+    return producer.id
+  } catch (error) {
+    console.error(`Error creating producer: ${error}`)
+    throw error
+  }
+}
+
+async function createConsumer(
+  transport: WebRtcTransport,
+  producer: Producer,
+  rtpCapabilities: RtpCapabilities
+): Promise<Consumer> {
+  try {
+    // Check if the client's device supports the Producer's RTP capabilities
+    if (!router.canConsume({ producerId: producer.id, rtpCapabilities })) {
+      throw new Error("Client cannot consume the Producer")
+    }
+
+    // Create a mediasoup Consumer for the client using the WebRTC transport and the Producer
+    const consumer = await transport.consume({
+      producerId: producer.id,
+      rtpCapabilities,
+      paused: true, // Initially set the consumer to "paused" to avoid receiving media before the client is ready
+    })
+
+    // Set up an event listener for the 'transportclose' event to close the Consumer when the transport is closed
+    consumer.on("transportclose", () => {
+      consumer.close()
+      console.log(`Consumer (ID: ${consumer.id}) closed due to transport close`)
+    })
+
+    return consumer
+  } catch (error) {
+    console.error(`Error creating consumer: ${error}`)
+    throw error
+  }
+}
+
+async function connectRtpStream(rtpParameters: any): Promise<void> {
+  try {
+    // Get the remote RTP address and port from the RTP transport tuple
+    const remoteRtpAddress = rtpTransport.tuple.remoteIp
+    const remoteRtpPort = rtpTransport.tuple.remotePort
+
+    // Get the remote RTCP address and port from the RTCP transport tuple
+    const remoteRtcpAddress = rtpTransport.rtcpTuple?.remoteIp
+    const remoteRtcpPort = rtpTransport.rtcpTuple?.remotePort
+
+    // Connect the RTP transport to the remote RTP and RTCP addresses and ports
+    await rtpTransport.connect({
+      ip: remoteRtpAddress!,
+      port: remoteRtpPort!,
+      rtcpPort: remoteRtcpPort!,
+    })
+
+    // Create a mediasoup Producer using the RTP transport and the RTP parameters
+    const producerId = await createProducer(rtpTransport, rtpParameters)
+
+    console.log(
+      `RTP stream connected to mediasoup RTP transport (Producer ID: ${producerId})`
+    )
+  } catch (error) {
+    console.error(`Error connecting RTP stream: ${error}`)
+  }
+}
+// Main function
+async function main(): Promise<void> {
+  try {
+    // Initialize Express server
+    initExpress()
+
+    // Initialize Socket.IO
+    initSocketIO()
+
+    // Initialize mediasoup components
+    await initMediasoup()
+
+    // Start listening for connections
+    const port = process.env["PORT"] || 3000
+    server.listen(port, () => {
+      console.log(`Server is listening on port ${port}`)
+    })
+
+    // On Socket.IO connection
+    io.on("connection", (socket) => {
+      console.log(`Client connected: ${socket.id}`)
+      handleSocketConnection(socket)
+    })
+  } catch (error) {
+    console.error(`Error in main function: ${error}`)
+  }
+}
+// Start the server
+main()

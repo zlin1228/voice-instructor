@@ -1,0 +1,514 @@
+{
+  "state_machine": {
+    "state_machine_id": "ChTLLrhcrr4rsfqnavQtvVCM2802Ww",
+    "tracks": [
+      {
+        "metadata": {
+          "uri": "spotify:track:3lSOZb5rruEnFbe9xWELF6",
+          "linked_from_uri": null,
+          "context_description": null,
+          "context_uri": "spotify:track:3lSOZb5rruEnFbe9xWELF6",
+          "name": "Rue des trois frères",
+          "group_name": "Fragments Found",
+          "group_uri": "spotify:album:39LWVcWN0HG7SF27UiuW9b",
+          "authors": [
+            {
+              "name": "Fabrizio Paterlini",
+              "uri": "spotify:artist:0jrFMgW018F1XVnLtCXOKi"
+            }
+          ],
+          "duration": 111442,
+          "images": [
+            {
+              "url": "https://i.scdn.co/image/ab67616d0000b27376e7e807387a54a1290294cf",
+              "height": 640,
+              "width": 640
+            },
+            {
+              "url": "https://i.scdn.co/image/ab67616d0000485176e7e807387a54a1290294cf",
+              "height": 64,
+              "width": 64
+            },
+            {
+              "url": "https://i.scdn.co/image/ab67616d00001e0276e7e807387a54a1290294cf",
+              "height": 300,
+              "width": 300
+            }
+          ],
+          "episode_content_type": null,
+          "show_content_type": null,
+          "playback_platform_context_id": null,
+          "playback_platform_generated_audio": null
+        },
+        "manifest": {
+          "file_ids_mp3": [
+            {
+              "bitrate": 160000,
+              "file_id": "d1f47de58ec9a195f37ee0fa7596b40d60cfe2c0",
+              "file_url": null,
+              "impression_urls": null,
+              "track_type": "AUDIO",
+              "format": "5",
+              "audio_quality": "NORMAL",
+              "hifi_status": "NONE",
+              "gain_db": 0.028241992
+            }
+          ],
+          "file_ids_mp4": [
+            {
+              "bitrate": 256000,
+              "file_id": "80ae6a760eeabf25b3483721f60b7e5fdbfd0aa2",
+              "file_url": null,
+              "impression_urls": null,
+              "track_type": "AUDIO",
+              "format": "11",
+              "audio_quality": "VERY_HIGH",
+              "hifi_status": "NONE",
+              "gain_db": 0.028241992
+            },
+            {
+              "bitrate": 128000,
+              "file_id": "531f64c08c68dbec7b62aaca1b71f1be49d7115e",
+              "file_url": null,
+              "impression_urls": null,
+              "track_type": "AUDIO",
+              "format": "10",
+              "audio_quality": "HIGH",
+              "hifi_status": "NONE",
+              "gain_db": 0.028241992
+            }
+          ],
+          "file_ids_mp4_dual": [
+            {
+              "bitrate": 256000,
+              "file_id": "3f7dd59cb3609084da6eca1e91541e4dbc3cce7c",
+              "file_url": null,
+              "impression_urls": null,
+              "track_type": "AUDIO",
+              "format": "13",
+              "audio_quality": "VERY_HIGH",
+              "hifi_status": "NONE",
+              "gain_db": 0.028241992
+            },
+            {
+              "bitrate": 128000,
+              "file_id": "c3322815c1b697413f6fe2d88c84cd19ab882cf6",
+              "file_url": null,
+              "impression_urls": null,
+              "track_type": "AUDIO",
+              "format": "12",
+              "audio_quality": "HIGH",
+              "hifi_status": "NONE",
+              "gain_db": 0.028241992
+            }
+          ]
+        },
+        "audio_id": null,
+        "track_type": "AUDIO",
+        "ms_played_until_update": 30000,
+        "ms_playing_update_interval": 0,
+        "content_type": "TRACK"
+      },
+      {
+        "metadata": {
+          "uri": "spotify:track:3jr9gtpaDA4XFdDSqRpPZk",
+          "linked_from_uri": null,
+          "context_description": null,
+          "context_uri": "spotify:track:3lSOZb5rruEnFbe9xWELF6",
+          "name": "Istanbul Wedding",
+          "group_name": "Transitions",
+          "group_uri": "spotify:album:7dopFnnInju2yjJe127paH",
+          "authors": [
+            {
+              "name": "Fabrizio Paterlini",
+              "uri": "spotify:artist:0jrFMgW018F1XVnLtCXOKi"
+            }
+          ],
+          "duration": 66715,
+          "images": [
+            {
+              "url": "https://i.scdn.co/image/ab67616d0000b273eb7082951d1d23ca2deb0789",
+              "height": 640,
+              "width": 640
+            },
+            {
+              "url": "https://i.scdn.co/image/ab67616d00004851eb7082951d1d23ca2deb0789",
+              "height": 64,
+              "width": 64
+            },
+            {
+              "url": "https://i.scdn.co/image/ab67616d00001e02eb7082951d1d23ca2deb0789",
+              "height": 300,
+              "width": 300
+            }
+          ],
+          "episode_content_type": null,
+          "show_content_type": null,
+          "playback_platform_context_id": null,
+          "playback_platform_generated_audio": null
+        },
+        "manifest": {
+          "file_ids_mp4_dual": [
+            {
+              "bitrate": 256000,
+              "file_id": "db016ae5978c565b83d1975d3450f4027d23ad95",
+              "file_url": null,
+              "impression_urls": null,
+              "track_type": "AUDIO",
+              "format": "13",
+              "audio_quality": "VERY_HIGH",
+              "hifi_status": "NONE",
+              "gain_db": 1.9154494
+            },
+            {
+              "bitrate": 128000,
+              "file_id": "e98a70d762d0ad6d5333dc8660492fc85ce1297f",
+              "file_url": null,
+              "impression_urls": null,
+              "track_type": "AUDIO",
+              "format": "12",
+              "audio_quality": "HIGH",
+              "hifi_status": "NONE",
+              "gain_db": 1.9154494
+            }
+          ],
+          "file_ids_mp4": [
+            {
+              "bitrate": 256000,
+              "file_id": "f25a8cc0c2227f42ba8ab2da9477454d1bb2e3be",
+              "file_url": null,
+              "impression_urls": null,
+              "track_type": "AUDIO",
+              "format": "11",
+              "audio_quality": "VERY_HIGH",
+              "hifi_status": "NONE",
+              "gain_db": 1.9154494
+            },
+            {
+              "bitrate": 128000,
+              "file_id": "8c84a1e04b534f3f4e90e4c830ef7942944678be",
+              "file_url": null,
+              "impression_urls": null,
+              "track_type": "AUDIO",
+              "format": "10",
+              "audio_quality": "HIGH",
+              "hifi_status": "NONE",
+              "gain_db": 1.9154494
+            }
+          ]
+        },
+        "audio_id": null,
+        "track_type": "AUDIO",
+        "ms_played_until_update": 30000,
+        "ms_playing_update_interval": 0,
+        "content_type": "TRACK"
+      },
+      {
+        "metadata": {
+          "uri": "spotify:track:1yqM5O07lL7R6UAdK5jvrR",
+          "linked_from_uri": null,
+          "context_description": null,
+          "context_uri": "spotify:track:3lSOZb5rruEnFbe9xWELF6",
+          "name": "Oceans Apart",
+          "group_name": "The Turn",
+          "group_uri": "spotify:album:1HBOLQ0QoDkGDGnjhfdzPy",
+          "authors": [
+            {
+              "name": "Ben Crosland",
+              "uri": "spotify:artist:5uNm1FvRSh2IcPNDGQChtr"
+            }
+          ],
+          "duration": 78413,
+          "images": [
+            {
+              "url": "https://i.scdn.co/image/ab67616d0000b273fdc6a94a294a2c6d8d818e44",
+              "height": 640,
+              "width": 640
+            },
+            {
+              "url": "https://i.scdn.co/image/ab67616d00004851fdc6a94a294a2c6d8d818e44",
+              "height": 64,
+              "width": 64
+            },
+            {
+              "url": "https://i.scdn.co/image/ab67616d00001e02fdc6a94a294a2c6d8d818e44",
+              "height": 300,
+              "width": 300
+            }
+          ],
+          "episode_content_type": null,
+          "show_content_type": null,
+          "playback_platform_context_id": null,
+          "playback_platform_generated_audio": null
+        },
+        "manifest": {
+          "file_ids_mp4_dual": [
+            {
+              "bitrate": 256000,
+              "file_id": "eee1166dbe1c1e5579fa04adbfa9b580696434d9",
+              "file_url": null,
+              "impression_urls": null,
+              "track_type": "AUDIO",
+              "format": "13",
+              "audio_quality": "VERY_HIGH",
+              "hifi_status": "NONE",
+              "gain_db": -0.15279484
+            },
+            {
+              "bitrate": 128000,
+              "file_id": "75428a12731ebc5b5d9f1604f65f6bbf11ffc6b8",
+              "file_url": null,
+              "impression_urls": null,
+              "track_type": "AUDIO",
+              "format": "12",
+              "audio_quality": "HIGH",
+              "hifi_status": "NONE",
+              "gain_db": -0.15279484
+            }
+          ],
+          "file_ids_mp4": [
+            {
+              "bitrate": 256000,
+              "file_id": "0a3105f82d4196b90ebb984caa44f8bbd242f824",
+              "file_url": null,
+              "impression_urls": null,
+              "track_type": "AUDIO",
+              "format": "11",
+              "audio_quality": "VERY_HIGH",
+              "hifi_status": "NONE",
+              "gain_db": -0.15279484
+            },
+            {
+              "bitrate": 128000,
+              "file_id": "7984032cb9700f62978e821447ac68e286721621",
+              "file_url": null,
+              "impression_urls": null,
+              "track_type": "AUDIO",
+              "format": "10",
+              "audio_quality": "HIGH",
+              "hifi_status": "NONE",
+              "gain_db": -0.15279484
+            }
+          ]
+        },
+        "audio_id": null,
+        "track_type": "AUDIO",
+        "ms_played_until_update": 30000,
+        "ms_playing_update_interval": 0,
+        "content_type": "TRACK"
+      }
+    ],
+    "states": [
+      {
+        "state_id": "3279b21615fdfa89b7f4b3c8a3d3013a",
+        "disallow_seeking": false,
+        "track": 0,
+        "track_uid": "4d4c442d365e151a4297",
+        "initial_playback_position": null,
+        "segment_start_position": null,
+        "segment_stop_position": null,
+        "duration_override": null,
+        "position_offset": null,
+        "transitions": {
+          "skip_next": null,
+          "skip_prev": null,
+          "show_next": {
+            "state_index": 4,
+            "paused": false,
+            "active_alias": null
+          },
+          "show_prev": {
+            "state_index": 5,
+            "paused": false,
+            "active_alias": null
+          },
+          "advance": null
+        },
+        "restrictions": {
+          "disallow_pausing_reasons": ["already_paused"],
+          "disallow_skipping_prev_reasons": ["no_prev_track"]
+        },
+        "player_cookie": "2d3a7f49c51d45b09a7366763a22f7ea"
+      },
+      {
+        "state_id": "38ef0c64e908c999823f9d80ae45519f",
+        "disallow_seeking": false,
+        "track": 0,
+        "track_uid": "4d4c442d365e151a4297",
+        "initial_playback_position": null,
+        "segment_start_position": null,
+        "segment_stop_position": null,
+        "duration_override": null,
+        "position_offset": null,
+        "transitions": {
+          "skip_next": null,
+          "skip_prev": null,
+          "show_next": {
+            "state_index": 6,
+            "paused": false,
+            "active_alias": null
+          },
+          "show_prev": {
+            "state_index": 7,
+            "paused": false,
+            "active_alias": null
+          },
+          "advance": null
+        },
+        "restrictions": {
+          "disallow_pausing_reasons": ["already_paused"],
+          "disallow_skipping_prev_reasons": ["no_prev_track"]
+        },
+        "player_cookie": "31e801122ee741cbb875db2e9395fd8b"
+      },
+      {
+        "state_id": "cc423aa25b6cc8c48acbcd4ce565e42e",
+        "disallow_seeking": false,
+        "track": 2,
+        "track_uid": "3e79be80d21f5cdf5dd6cd2721a9929a59ca400c",
+        "initial_playback_position": null,
+        "segment_start_position": null,
+        "segment_stop_position": null,
+        "duration_override": null,
+        "position_offset": null,
+        "transitions": {
+          "skip_next": {
+            "state_index": 0,
+            "paused": false,
+            "active_alias": null
+          },
+          "skip_prev": null,
+          "show_next": {
+            "state_index": 3,
+            "paused": false,
+            "active_alias": null
+          },
+          "show_prev": null,
+          "advance": { "state_index": 1, "paused": true, "active_alias": null }
+        },
+        "restrictions": {
+          "disallow_pausing_reasons": ["already_paused"],
+          "disallow_skipping_prev_reasons": ["no_prev_track"]
+        },
+        "player_cookie": "538eff84e4954e44a104e19d2425c23f"
+      },
+      {
+        "state_id": "09a155615af76ca3f9e6679bf528b521",
+        "disallow_seeking": false,
+        "track": 0,
+        "track_uid": "4d4c442d365e151a4297",
+        "initial_playback_position": null,
+        "segment_start_position": null,
+        "segment_stop_position": null,
+        "duration_override": null,
+        "position_offset": null,
+        "transitions": {
+          "skip_next": null,
+          "skip_prev": null,
+          "show_next": null,
+          "show_prev": null,
+          "advance": null
+        },
+        "player_cookie": "2824f091bd59465ca3b2f1c47da34b63"
+      },
+      {
+        "state_id": "720b5d690d1444329bc481eaababb39a",
+        "disallow_seeking": false,
+        "track": 1,
+        "track_uid": "045a3ef1990a305e785ba1d6de75a1662642556f",
+        "initial_playback_position": null,
+        "segment_start_position": null,
+        "segment_stop_position": null,
+        "duration_override": null,
+        "position_offset": null,
+        "transitions": {
+          "skip_next": null,
+          "skip_prev": null,
+          "show_next": null,
+          "show_prev": null,
+          "advance": null
+        },
+        "player_cookie": "347779870f96471bb78faf7c1b1e5774"
+      },
+      {
+        "state_id": "4018794d4e5853834260acd2b1424323",
+        "disallow_seeking": false,
+        "track": 2,
+        "track_uid": "3e79be80d21f5cdf5dd6cd2721a9929a59ca400c",
+        "initial_playback_position": null,
+        "segment_start_position": null,
+        "segment_stop_position": null,
+        "duration_override": null,
+        "position_offset": null,
+        "transitions": {
+          "skip_next": null,
+          "skip_prev": null,
+          "show_next": null,
+          "show_prev": null,
+          "advance": null
+        },
+        "player_cookie": "99631a388fa1423e86b803fa7ad51a2c"
+      },
+      {
+        "state_id": "dd550bd05ac62f86843570153d86cee0",
+        "disallow_seeking": false,
+        "track": 1,
+        "track_uid": "045a3ef1990a305e785ba1d6de75a1662642556f",
+        "initial_playback_position": null,
+        "segment_start_position": null,
+        "segment_stop_position": null,
+        "duration_override": null,
+        "position_offset": null,
+        "transitions": {
+          "skip_next": null,
+          "skip_prev": null,
+          "show_next": null,
+          "show_prev": null,
+          "advance": null
+        },
+        "player_cookie": "5f379766b3c649489b2f8d29716ec844"
+      },
+      {
+        "state_id": "36f384c8c376385f7acfe53d66a0ecfb",
+        "disallow_seeking": false,
+        "track": 2,
+        "track_uid": "3e79be80d21f5cdf5dd6cd2721a9929a59ca400c",
+        "initial_playback_position": null,
+        "segment_start_position": null,
+        "segment_stop_position": null,
+        "duration_override": null,
+        "position_offset": null,
+        "transitions": {
+          "skip_next": null,
+          "skip_prev": null,
+          "show_next": null,
+          "show_prev": null,
+          "advance": null
+        },
+        "player_cookie": "769dd829ad304fdcab06d928d1ef5d77"
+      }
+    ],
+    "attributes": {
+      "options": {
+        "shuffling_context": false,
+        "repeating_context": false,
+        "repeating_track": false
+      },
+      "playback_session_id": "0MoDijQPCNWhIBRBuVUOd6"
+    }
+  },
+  "updated_state_ref": {
+    "state_index": 2,
+    "paused": true,
+    "active_alias": null
+  },
+  "previous_state_ref": {
+    "state_machine_id": "ChStFV5H-PoUYjEn3rkmc2h4mAwYgw",
+    "state_id": "cc423aa25b6cc8c48acbcd4ce565e42e",
+    "paused": true,
+    "active_alias": null
+  },
+  "endsong": null,
+  "endsongs": null,
+  "play_metadata": { "play_origin_feature_identifier": "track" }
+}

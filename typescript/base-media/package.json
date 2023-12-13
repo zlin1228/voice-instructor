@@ -1,0 +1,17 @@
+{
+  "name": "base-media",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@deepgram/sdk": "^2.2.0",
+    "@google-cloud/speech": "^5.5.0",
+    "base-core": "file:../base-core",
+    "base-node": "file:../base-node",
+    "base-gcp": "file:../base-gcp"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.13",
+    "@typescript-eslint/eslint-plugin": "^5.59.0",
+    "typescript": "^5.2.2"
+  }
+}

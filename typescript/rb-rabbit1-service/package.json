@@ -1,0 +1,23 @@
+{
+  "name": "rb-rabbit1-service",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@fastify/cors": "^8.3.0",
+    "base-core": "file:../base-core",
+    "base-fastify": "file:../base-fastify",
+    "base-kubernetes": "file:../base-kubernetes",
+    "base-mongodb": "file:../base-mongodb",
+    "base-node": "file:../base-node",
+    "base-playwright": "file:../base-playwright",
+    "rb-rabbit-common": "file:../rb-rabbit-common",
+    "rb-rabbit1-common": "file:../rb-rabbit1-common"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.10",
+    "@typescript-eslint/eslint-plugin": "^6.9.1",
+    "@typescript-eslint/parser": "^6.9.1",
+    "eslint": "^8.52.0",
+    "typescript": "^5.2.2"
+  }
+}

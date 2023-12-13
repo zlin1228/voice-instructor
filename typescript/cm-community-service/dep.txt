@@ -1,0 +1,6 @@
+base-core
+base-fastify
+base-nli
+base-mongodb
+base-node
+cm-community-common

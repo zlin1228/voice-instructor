@@ -1,0 +1,894 @@
+{
+  "timestamp": "1684710200606",
+  "player_state": {
+    "timestamp": "1684710179055",
+    "context_uri": "spotify:track:3lSOZb5rruEnFbe9xWELF6",
+    "context_url": "context://spotify:track:3lSOZb5rruEnFbe9xWELF6",
+    "context_restrictions": {},
+    "play_origin": {
+      "feature_identifier": "track",
+      "feature_version": "web-player_2023-05-21_1684701718818_616c9ee",
+      "referrer_identifier": "your_library",
+      "device_identifier": "local",
+      "feature_classes": ["connect"]
+    },
+    "track": {
+      "uri": "spotify:track:1yqM5O07lL7R6UAdK5jvrR",
+      "uid": "3e79be80d21f5cdf5dd6cd2721a9929a59ca400c",
+      "metadata": {
+        "actions.skipping_next_past_track": "resume",
+        "actions.skipping_prev_past_track": "resume",
+        "autoplay.is_autoplay": "true",
+        "context_uri": "spotify:station:track:3lSOZb5rruEnFbe9xWELF6",
+        "decision_id": "05fc3b9258a9ada2d4cd75efa2d1d8ecda18",
+        "entity_uri": "spotify:station:track:3lSOZb5rruEnFbe9xWELF6",
+        "interaction_id": "1d015ef7-ca23-426f-8f7d-eb48e7e027ab",
+        "is_queued": "true",
+        "iteration": "0",
+        "page_instance_id": "b024dd8e-b3ec-4fb0-8545-33b5c6ff9338",
+        "track_player": "audio"
+      },
+      "provider": "queue"
+    },
+    "playback_id": "ae9ae6ff9d06ce4997467eccfd1b05a9",
+    "playback_speed": 0.0,
+    "position_as_of_timestamp": "13061",
+    "duration": "78460",
+    "is_playing": true,
+    "is_paused": true,
+    "is_system_initiated": false,
+    "options": {
+      "shuffling_context": false,
+      "repeating_context": false,
+      "repeating_track": false
+    },
+    "restrictions": {
+      "disallow_pausing_reasons": ["already_paused"],
+      "disallow_skipping_prev_reasons": ["no_prev_track"]
+    },
+    "suppressions": {},
+    "next_tracks": [
+      {
+        "uri": "spotify:track:3lSOZb5rruEnFbe9xWELF6",
+        "uid": "4d4c442d365e151a4297",
+        "metadata": {
+          "actions.skipping_next_past_track": "resume",
+          "actions.skipping_prev_past_track": "resume",
+          "context_uri": "spotify:track:3lSOZb5rruEnFbe9xWELF6",
+          "entity_uri": "spotify:track:3lSOZb5rruEnFbe9xWELF6",
+          "interaction_id": "1d015ef7-ca23-426f-8f7d-eb48e7e027ab",
+          "iteration": "0",
+          "page_instance_id": "b024dd8e-b3ec-4fb0-8545-33b5c6ff9338",
+          "track_player": "audio"
+        },
+        "provider": "context"
+      },
+      {
+        "uri": "spotify:track:4Ks0OfgQpb58nHvQrcaiPi",
+        "uid": "3e3e18a1d7e916a7f12b5ee8e06dc3f2de967d60",
+        "metadata": {
+          "autoplay.is_autoplay": "true",
+          "context_uri": "spotify:station:track:3lSOZb5rruEnFbe9xWELF6",
+          "decision_id": "05fc3c266da6a2534ec3776f97c13deeef11",
+          "entity_uri": "spotify:station:track:3lSOZb5rruEnFbe9xWELF6",
+          "interaction_id": "1d015ef7-ca23-426f-8f7d-eb48e7e027ab",
+          "iteration": "0",
+          "page_instance_id": "b024dd8e-b3ec-4fb0-8545-33b5c6ff9338",
+          "track_player": "audio"
+        },
+        "provider": "autoplay"
+      },
+      {
+        "uri": "spotify:track:7rluktTepDJTxl6Jb35otq",
+        "uid": "3fb67d1fca5196e002cf35d77c700aa9fdcd0ea4",
+        "metadata": {
+          "autoplay.is_autoplay": "true",
+          "context_uri": "spotify:station:track:3lSOZb5rruEnFbe9xWELF6",
+          "decision_id": "05fc3c266da6a2534ec3776f97c13deeef11",
+          "entity_uri": "spotify:station:track:3lSOZb5rruEnFbe9xWELF6",
+          "interaction_id": "1d015ef7-ca23-426f-8f7d-eb48e7e027ab",
+          "iteration": "0",
+          "page_instance_id": "b024dd8e-b3ec-4fb0-8545-33b5c6ff9338",
+          "track_player": "audio"
+        },
+        "provider": "autoplay"
+      },
+      {
+        "uri": "spotify:track:3Zckk6BHuIzsk0oGnH5xAB",
+        "uid": "b3a3507ebb7a48861ff7a23d76bf3870f4257c02",
+        "metadata": {
+          "autoplay.is_autoplay": "true",
+          "context_uri": "spotify:station:track:3lSOZb5rruEnFbe9xWELF6",
+          "decision_id": "05fc3c266da6a2534ec3776f97c13deeef11",
+          "entity_uri": "spotify:station:track:3lSOZb5rruEnFbe9xWELF6",
+          "interaction_id": "1d015ef7-ca23-426f-8f7d-eb48e7e027ab",
+          "iteration": "0",
+          "page_instance_id": "b024dd8e-b3ec-4fb0-8545-33b5c6ff9338",
+          "track_player": "audio"
+        },
+        "provider": "autoplay"
+      },
+      {
+        "uri": "spotify:track:5JSvMEfZI2cbtVXcSKFgse",
+        "uid": "d80fb67965c8fbbaa006552304bb10a2bcec4ff6",
+        "metadata": {
+          "autoplay.is_autoplay": "true",
+          "context_uri": "spotify:station:track:3lSOZb5rruEnFbe9xWELF6",
+          "decision_id": "05fc3c266da6a2534ec3776f97c13deeef11",
+          "entity_uri": "spotify:station:track:3lSOZb5rruEnFbe9xWELF6",
+          "interaction_id": "1d015ef7-ca23-426f-8f7d-eb48e7e027ab",
+          "iteration": "0",
+          "page_instance_id": "b024dd8e-b3ec-4fb0-8545-33b5c6ff9338",
+          "track_player": "audio"
+        },
+        "provider": "autoplay"
+      },
+      {
+        "uri": "spotify:track:0edZWNK4zLKPoh1fvdWQeV",
+        "uid": "835b6af0d47b03263dd8e2cf19766c43f743e141",
+        "metadata": {
+          "autoplay.is_autoplay": "true",
+          "context_uri": "spotify:station:track:3lSOZb5rruEnFbe9xWELF6",
+          "decision_id": "05fc3c266da6a2534ec3776f97c13deeef11",
+          "entity_uri": "spotify:station:track:3lSOZb5rruEnFbe9xWELF6",
+          "interaction_id": "1d015ef7-ca23-426f-8f7d-eb48e7e027ab",
+          "iteration": "0",
+          "page_instance_id": "b024dd8e-b3ec-4fb0-8545-33b5c6ff9338",
+          "track_player": "audio"
+        },
+        "provider": "autoplay"
+      },
+      {
+        "uri": "spotify:track:3jr9gtpaDA4XFdDSqRpPZk",
+        "uid": "045a3ef1990a305e785ba1d6de75a1662642556f",
+        "metadata": {
+          "autoplay.is_autoplay": "true",
+          "context_uri": "spotify:station:track:3lSOZb5rruEnFbe9xWELF6",
+          "decision_id": "05fc3c266da6a2534ec3776f97c13deeef11",
+          "entity_uri": "spotify:station:track:3lSOZb5rruEnFbe9xWELF6",
+          "interaction_id": "1d015ef7-ca23-426f-8f7d-eb48e7e027ab",
+          "iteration": "0",
+          "page_instance_id": "b024dd8e-b3ec-4fb0-8545-33b5c6ff9338",
+          "track_player": "audio"
+        },
+        "provider": "autoplay"
+      },
+      {
+        "uri": "spotify:track:67ksXATAe92UP1mwod4e3s",
+        "uid": "cef9256de1b685db16052415150bcf84cb3fcd08",
+        "metadata": {
+          "autoplay.is_autoplay": "true",
+          "context_uri": "spotify:station:track:3lSOZb5rruEnFbe9xWELF6",
+          "decision_id": "05fc3c266da6a2534ec3776f97c13deeef11",
+          "entity_uri": "spotify:station:track:3lSOZb5rruEnFbe9xWELF6",
+          "interaction_id": "1d015ef7-ca23-426f-8f7d-eb48e7e027ab",
+          "iteration": "0",
+          "page_instance_id": "b024dd8e-b3ec-4fb0-8545-33b5c6ff9338",
+          "track_player": "audio"
+        },
+        "provider": "autoplay"
+      },
+      {
+        "uri": "spotify:track:7McExzjmhDI5NQ6l4D9XR9",
+        "uid": "a5bc29fdb035fe1a52b14deb56ecb07704f0d6be",
+        "metadata": {
+          "autoplay.is_autoplay": "true",
+          "context_uri": "spotify:station:track:3lSOZb5rruEnFbe9xWELF6",
+          "decision_id": "05fc3c266da6a2534ec3776f97c13deeef11",
+          "entity_uri": "spotify:station:track:3lSOZb5rruEnFbe9xWELF6",
+          "interaction_id": "1d015ef7-ca23-426f-8f7d-eb48e7e027ab",
+          "iteration": "0",
+          "page_instance_id": "b024dd8e-b3ec-4fb0-8545-33b5c6ff9338",
+          "track_player": "audio"
+        },
+        "provider": "autoplay"
+      },
+      {
+        "uri": "spotify:track:1W62KtrNpX64AxTMqo70Bl",
+        "uid": "d4f6e5dc30fe296abd7bc8da0627acacd2511422",
+        "metadata": {
+          "autoplay.is_autoplay": "true",
+          "context_uri": "spotify:station:track:3lSOZb5rruEnFbe9xWELF6",
+          "decision_id": "05fc3c266da6a2534ec3776f97c13deeef11",
+          "entity_uri": "spotify:station:track:3lSOZb5rruEnFbe9xWELF6",
+          "interaction_id": "1d015ef7-ca23-426f-8f7d-eb48e7e027ab",
+          "iteration": "0",
+          "page_instance_id": "b024dd8e-b3ec-4fb0-8545-33b5c6ff9338",
+          "track_player": "audio"
+        },
+        "provider": "autoplay"
+      },
+      {
+        "uri": "spotify:track:6IJRvKeHOBfBjhj11hTbTO",
+        "uid": "eac9db0161b258188ee5626b1771c1a3c81b360b",
+        "metadata": {
+          "autoplay.is_autoplay": "true",
+          "context_uri": "spotify:station:track:3lSOZb5rruEnFbe9xWELF6",
+          "decision_id": "05fc3c266da6a2534ec3776f97c13deeef11",
+          "entity_uri": "spotify:station:track:3lSOZb5rruEnFbe9xWELF6",
+          "interaction_id": "1d015ef7-ca23-426f-8f7d-eb48e7e027ab",
+          "iteration": "0",
+          "page_instance_id": "b024dd8e-b3ec-4fb0-8545-33b5c6ff9338",
+          "track_player": "audio"
+        },
+        "provider": "autoplay"
+      },
+      {
+        "uri": "spotify:track:73fZnvwSUlWwt9LLRkknzs",
+        "uid": "f7f5b1960442f872e3d98e0f96976ab40dd41e47",
+        "metadata": {
+          "autoplay.is_autoplay": "true",
+          "context_uri": "spotify:station:track:3lSOZb5rruEnFbe9xWELF6",
+          "decision_id": "05fc3c266da6a2534ec3776f97c13deeef11",
+          "entity_uri": "spotify:station:track:3lSOZb5rruEnFbe9xWELF6",
+          "interaction_id": "1d015ef7-ca23-426f-8f7d-eb48e7e027ab",
+          "iteration": "0",
+          "page_instance_id": "b024dd8e-b3ec-4fb0-8545-33b5c6ff9338",
+          "track_player": "audio"
+        },
+        "provider": "autoplay"
+      },
+      {
+        "uri": "spotify:track:1lb3H41lbvAN28N7yqRNL9",
+        "uid": "3bc29a421500d65e43bed7059702fcb3fc63f575",
+        "metadata": {
+          "autoplay.is_autoplay": "true",
+          "context_uri": "spotify:station:track:3lSOZb5rruEnFbe9xWELF6",
+          "decision_id": "05fc3c266da6a2534ec3776f97c13deeef11",
+          "entity_uri": "spotify:station:track:3lSOZb5rruEnFbe9xWELF6",
+          "interaction_id": "1d015ef7-ca23-426f-8f7d-eb48e7e027ab",
+          "iteration": "0",
+          "page_instance_id": "b024dd8e-b3ec-4fb0-8545-33b5c6ff9338",
+          "track_player": "audio"
+        },
+        "provider": "autoplay"
+      },
+      {
+        "uri": "spotify:track:3vJa3vl9FzX1gynrW2APo5",
+        "uid": "001be4ec41e8c8bb3433e8cbd5169b0ce49a3020",
+        "metadata": {
+          "autoplay.is_autoplay": "true",
+          "context_uri": "spotify:station:track:3lSOZb5rruEnFbe9xWELF6",
+          "decision_id": "05fc3c266da6a2534ec3776f97c13deeef11",
+          "entity_uri": "spotify:station:track:3lSOZb5rruEnFbe9xWELF6",
+          "interaction_id": "1d015ef7-ca23-426f-8f7d-eb48e7e027ab",
+          "iteration": "0",
+          "page_instance_id": "b024dd8e-b3ec-4fb0-8545-33b5c6ff9338",
+          "track_player": "audio"
+        },
+        "provider": "autoplay"
+      },
+      {
+        "uri": "spotify:track:2ffwBvpsQhgXyU7zBUOhwP",
+        "uid": "e95b5097c5f1ebda4c3d186702a9f1d7dcf3fe15",
+        "metadata": {
+          "autoplay.is_autoplay": "true",
+          "context_uri": "spotify:station:track:3lSOZb5rruEnFbe9xWELF6",
+          "decision_id": "05fc3c266da6a2534ec3776f97c13deeef11",
+          "entity_uri": "spotify:station:track:3lSOZb5rruEnFbe9xWELF6",
+          "interaction_id": "1d015ef7-ca23-426f-8f7d-eb48e7e027ab",
+          "iteration": "0",
+          "page_instance_id": "b024dd8e-b3ec-4fb0-8545-33b5c6ff9338",
+          "track_player": "audio"
+        },
+        "provider": "autoplay"
+      },
+      {
+        "uri": "spotify:track:25kGCuGWAYfyoz7RozlTpO",
+        "uid": "cd7c1ffb6d06bd916f615d9e251ca9d5d1411eda",
+        "metadata": {
+          "autoplay.is_autoplay": "true",
+          "context_uri": "spotify:station:track:3lSOZb5rruEnFbe9xWELF6",
+          "decision_id": "05fc3c266da6a2534ec3776f97c13deeef11",
+          "entity_uri": "spotify:station:track:3lSOZb5rruEnFbe9xWELF6",
+          "interaction_id": "1d015ef7-ca23-426f-8f7d-eb48e7e027ab",
+          "iteration": "0",
+          "page_instance_id": "b024dd8e-b3ec-4fb0-8545-33b5c6ff9338",
+          "track_player": "audio"
+        },
+        "provider": "autoplay"
+      },
+      {
+        "uri": "spotify:track:2icQrPuCDVAMAoVAHRzF7b",
+        "uid": "3b23b1e1afad6975975d9e5f091b4cc1c485028e",
+        "metadata": {
+          "autoplay.is_autoplay": "true",
+          "context_uri": "spotify:station:track:3lSOZb5rruEnFbe9xWELF6",
+          "decision_id": "05fc3c266da6a2534ec3776f97c13deeef11",
+          "entity_uri": "spotify:station:track:3lSOZb5rruEnFbe9xWELF6",
+          "interaction_id": "1d015ef7-ca23-426f-8f7d-eb48e7e027ab",
+          "iteration": "0",
+          "page_instance_id": "b024dd8e-b3ec-4fb0-8545-33b5c6ff9338",
+          "track_player": "audio"
+        },
+        "provider": "autoplay"
+      },
+      {
+        "uri": "spotify:track:1yqM5O07lL7R6UAdK5jvrR",
+        "uid": "3e79be80d21f5cdf5dd6cd2721a9929a59ca400c",
+        "metadata": {
+          "autoplay.is_autoplay": "true",
+          "context_uri": "spotify:station:track:3lSOZb5rruEnFbe9xWELF6",
+          "decision_id": "05fc3c266da6a2534ec3776f97c13deeef11",
+          "entity_uri": "spotify:station:track:3lSOZb5rruEnFbe9xWELF6",
+          "interaction_id": "1d015ef7-ca23-426f-8f7d-eb48e7e027ab",
+          "iteration": "0",
+          "page_instance_id": "b024dd8e-b3ec-4fb0-8545-33b5c6ff9338",
+          "track_player": "audio"
+        },
+        "provider": "autoplay"
+      },
+      {
+        "uri": "spotify:track:1Kb2DqjHRvOcT5xeWtz3t5",
+        "uid": "ce6a59f326d70c4c451b435525afe2d9bd067983",
+        "metadata": {
+          "autoplay.is_autoplay": "true",
+          "context_uri": "spotify:station:track:3lSOZb5rruEnFbe9xWELF6",
+          "decision_id": "05fc3c266da6a2534ec3776f97c13deeef11",
+          "entity_uri": "spotify:station:track:3lSOZb5rruEnFbe9xWELF6",
+          "interaction_id": "1d015ef7-ca23-426f-8f7d-eb48e7e027ab",
+          "iteration": "0",
+          "page_instance_id": "b024dd8e-b3ec-4fb0-8545-33b5c6ff9338",
+          "track_player": "audio"
+        },
+        "provider": "autoplay"
+      },
+      {
+        "uri": "spotify:track:1OjJsjcatXLusDH4E3f4gH",
+        "uid": "ea1df0b4fecc9003fb512c3629d273ed7f861bac",
+        "metadata": {
+          "autoplay.is_autoplay": "true",
+          "context_uri": "spotify:station:track:3lSOZb5rruEnFbe9xWELF6",
+          "decision_id": "05fc3c266da6a2534ec3776f97c13deeef11",
+          "entity_uri": "spotify:station:track:3lSOZb5rruEnFbe9xWELF6",
+          "interaction_id": "1d015ef7-ca23-426f-8f7d-eb48e7e027ab",
+          "iteration": "0",
+          "page_instance_id": "b024dd8e-b3ec-4fb0-8545-33b5c6ff9338",
+          "track_player": "audio"
+        },
+        "provider": "autoplay"
+      },
+      {
+        "uri": "spotify:track:2ppT21sbMR1MF0voMV87jN",
+        "uid": "63846960aeeb226636551f5bbb8d776a50bdadd4",
+        "metadata": {
+          "autoplay.is_autoplay": "true",
+          "context_uri": "spotify:station:track:3lSOZb5rruEnFbe9xWELF6",
+          "decision_id": "05fc3c266da6a2534ec3776f97c13deeef11",
+          "entity_uri": "spotify:station:track:3lSOZb5rruEnFbe9xWELF6",
+          "interaction_id": "1d015ef7-ca23-426f-8f7d-eb48e7e027ab",
+          "iteration": "0",
+          "page_instance_id": "b024dd8e-b3ec-4fb0-8545-33b5c6ff9338",
+          "track_player": "audio"
+        },
+        "provider": "autoplay"
+      },
+      {
+        "uri": "spotify:track:0PPrNdftcnEy8Hso2iQ5uL",
+        "uid": "2ec43281c4b6c76a632699a4b04ba17b73cfc080",
+        "metadata": {
+          "autoplay.is_autoplay": "true",
+          "context_uri": "spotify:station:track:3lSOZb5rruEnFbe9xWELF6",
+          "decision_id": "05fc3c266da6a2534ec3776f97c13deeef11",
+          "entity_uri": "spotify:station:track:3lSOZb5rruEnFbe9xWELF6",
+          "interaction_id": "1d015ef7-ca23-426f-8f7d-eb48e7e027ab",
+          "iteration": "0",
+          "page_instance_id": "b024dd8e-b3ec-4fb0-8545-33b5c6ff9338",
+          "track_player": "audio"
+        },
+        "provider": "autoplay"
+      },
+      {
+        "uri": "spotify:track:2ROZkHmSV46OD2ESB6gpzs",
+        "uid": "affd26c00ce698baf68f950d9ddd05945022f713",
+        "metadata": {
+          "autoplay.is_autoplay": "true",
+          "context_uri": "spotify:station:track:3lSOZb5rruEnFbe9xWELF6",
+          "decision_id": "05fc3c266da6a2534ec3776f97c13deeef11",
+          "entity_uri": "spotify:station:track:3lSOZb5rruEnFbe9xWELF6",
+          "interaction_id": "1d015ef7-ca23-426f-8f7d-eb48e7e027ab",
+          "iteration": "0",
+          "page_instance_id": "b024dd8e-b3ec-4fb0-8545-33b5c6ff9338",
+          "track_player": "audio"
+        },
+        "provider": "autoplay"
+      },
+      {
+        "uri": "spotify:track:3nSxZL5DdPaX9uiRqDbYaj",
+        "uid": "6f8171405615804616de6756c9c2987ac49f10b6",
+        "metadata": {
+          "autoplay.is_autoplay": "true",
+          "context_uri": "spotify:station:track:3lSOZb5rruEnFbe9xWELF6",
+          "decision_id": "05fc3c266da6a2534ec3776f97c13deeef11",
+          "entity_uri": "spotify:station:track:3lSOZb5rruEnFbe9xWELF6",
+          "interaction_id": "1d015ef7-ca23-426f-8f7d-eb48e7e027ab",
+          "iteration": "0",
+          "page_instance_id": "b024dd8e-b3ec-4fb0-8545-33b5c6ff9338",
+          "track_player": "audio"
+        },
+        "provider": "autoplay"
+      },
+      {
+        "uri": "spotify:track:2kbruQXVXFmxxm4l75zuwy",
+        "uid": "a0b0d2378a9862ba755195174aefb8d7b2c8c4bf",
+        "metadata": {
+          "autoplay.is_autoplay": "true",
+          "context_uri": "spotify:station:track:3lSOZb5rruEnFbe9xWELF6",
+          "decision_id": "05fc3c266da6a2534ec3776f97c13deeef11",
+          "entity_uri": "spotify:station:track:3lSOZb5rruEnFbe9xWELF6",
+          "interaction_id": "1d015ef7-ca23-426f-8f7d-eb48e7e027ab",
+          "iteration": "0",
+          "page_instance_id": "b024dd8e-b3ec-4fb0-8545-33b5c6ff9338",
+          "track_player": "audio"
+        },
+        "provider": "autoplay"
+      },
+      {
+        "uri": "spotify:track:6c7uYlmHJtZPnenPjqG7Ir",
+        "uid": "cef3a82738279b199b00a3566bba34e3f945138e",
+        "metadata": {
+          "autoplay.is_autoplay": "true",
+          "context_uri": "spotify:station:track:3lSOZb5rruEnFbe9xWELF6",
+          "decision_id": "05fc3c266da6a2534ec3776f97c13deeef11",
+          "entity_uri": "spotify:station:track:3lSOZb5rruEnFbe9xWELF6",
+          "interaction_id": "1d015ef7-ca23-426f-8f7d-eb48e7e027ab",
+          "iteration": "0",
+          "page_instance_id": "b024dd8e-b3ec-4fb0-8545-33b5c6ff9338",
+          "track_player": "audio"
+        },
+        "provider": "autoplay"
+      },
+      {
+        "uri": "spotify:track:48GtE9nno474ZYd9qhJqXx",
+        "uid": "ca2fd69eaac5aff0bc1e53612bb6e340797760d3",
+        "metadata": {
+          "autoplay.is_autoplay": "true",
+          "context_uri": "spotify:station:track:3lSOZb5rruEnFbe9xWELF6",
+          "decision_id": "05fc3c266da6a2534ec3776f97c13deeef11",
+          "entity_uri": "spotify:station:track:3lSOZb5rruEnFbe9xWELF6",
+          "interaction_id": "1d015ef7-ca23-426f-8f7d-eb48e7e027ab",
+          "iteration": "0",
+          "page_instance_id": "b024dd8e-b3ec-4fb0-8545-33b5c6ff9338",
+          "track_player": "audio"
+        },
+        "provider": "autoplay"
+      },
+      {
+        "uri": "spotify:track:3KG9I4JXpDwNQOsotE3uLh",
+        "uid": "da13b9eb4ec38f94781be8ef9bd3fb98b7b00baf",
+        "metadata": {
+          "autoplay.is_autoplay": "true",
+          "context_uri": "spotify:station:track:3lSOZb5rruEnFbe9xWELF6",
+          "decision_id": "05fc3c266da6a2534ec3776f97c13deeef11",
+          "entity_uri": "spotify:station:track:3lSOZb5rruEnFbe9xWELF6",
+          "interaction_id": "1d015ef7-ca23-426f-8f7d-eb48e7e027ab",
+          "iteration": "0",
+          "page_instance_id": "b024dd8e-b3ec-4fb0-8545-33b5c6ff9338",
+          "track_player": "audio"
+        },
+        "provider": "autoplay"
+      },
+      {
+        "uri": "spotify:track:0EnJ7hwoixkSPHQHMDAsQ5",
+        "uid": "6e3f3ad14b2135a7f8dd82bfb9a13df900bdd4da",
+        "metadata": {
+          "autoplay.is_autoplay": "true",
+          "context_uri": "spotify:station:track:3lSOZb5rruEnFbe9xWELF6",
+          "decision_id": "05fc3c266da6a2534ec3776f97c13deeef11",
+          "entity_uri": "spotify:station:track:3lSOZb5rruEnFbe9xWELF6",
+          "interaction_id": "1d015ef7-ca23-426f-8f7d-eb48e7e027ab",
+          "iteration": "0",
+          "page_instance_id": "b024dd8e-b3ec-4fb0-8545-33b5c6ff9338",
+          "track_player": "audio"
+        },
+        "provider": "autoplay"
+      },
+      {
+        "uri": "spotify:track:2rso25m7GZBGpliSBgbn2V",
+        "uid": "f024c3e16e0811ac5cc4d10011ff6721023c4212",
+        "metadata": {
+          "autoplay.is_autoplay": "true",
+          "context_uri": "spotify:station:track:3lSOZb5rruEnFbe9xWELF6",
+          "decision_id": "05fc3c266da6a2534ec3776f97c13deeef11",
+          "entity_uri": "spotify:station:track:3lSOZb5rruEnFbe9xWELF6",
+          "interaction_id": "1d015ef7-ca23-426f-8f7d-eb48e7e027ab",
+          "iteration": "0",
+          "page_instance_id": "b024dd8e-b3ec-4fb0-8545-33b5c6ff9338",
+          "track_player": "audio"
+        },
+        "provider": "autoplay"
+      },
+      {
+        "uri": "spotify:track:6pdpyQCs9E7MZGdIpBTfQP",
+        "uid": "b5353f7fef4f7a01ef7bc97cf3d776aa280c0d89",
+        "metadata": {
+          "autoplay.is_autoplay": "true",
+          "context_uri": "spotify:station:track:3lSOZb5rruEnFbe9xWELF6",
+          "decision_id": "05fc3c266da6a2534ec3776f97c13deeef11",
+          "entity_uri": "spotify:station:track:3lSOZb5rruEnFbe9xWELF6",
+          "interaction_id": "1d015ef7-ca23-426f-8f7d-eb48e7e027ab",
+          "iteration": "0",
+          "page_instance_id": "b024dd8e-b3ec-4fb0-8545-33b5c6ff9338",
+          "track_player": "audio"
+        },
+        "provider": "autoplay"
+      },
+      {
+        "uri": "spotify:track:7MZPEXMLokylejZiPMPjrf",
+        "uid": "5cb7b126df8813fe443303fa18791455bad90b26",
+        "metadata": {
+          "autoplay.is_autoplay": "true",
+          "context_uri": "spotify:station:track:3lSOZb5rruEnFbe9xWELF6",
+          "decision_id": "05fc3c266da6a2534ec3776f97c13deeef11",
+          "entity_uri": "spotify:station:track:3lSOZb5rruEnFbe9xWELF6",
+          "interaction_id": "1d015ef7-ca23-426f-8f7d-eb48e7e027ab",
+          "iteration": "0",
+          "page_instance_id": "b024dd8e-b3ec-4fb0-8545-33b5c6ff9338",
+          "track_player": "audio"
+        },
+        "provider": "autoplay"
+      },
+      {
+        "uri": "spotify:track:4g0QeSC67nz3qwHgyx038U",
+        "uid": "bafc5e4d58642fb2a2d679f8c27ec1be78ab37c0",
+        "metadata": {
+          "autoplay.is_autoplay": "true",
+          "context_uri": "spotify:station:track:3lSOZb5rruEnFbe9xWELF6",
+          "decision_id": "05fc3c266da6a2534ec3776f97c13deeef11",
+          "entity_uri": "spotify:station:track:3lSOZb5rruEnFbe9xWELF6",
+          "interaction_id": "1d015ef7-ca23-426f-8f7d-eb48e7e027ab",
+          "iteration": "0",
+          "page_instance_id": "b024dd8e-b3ec-4fb0-8545-33b5c6ff9338",
+          "track_player": "audio"
+        },
+        "provider": "autoplay"
+      },
+      {
+        "uri": "spotify:track:772Bcd8JnXHuDFawYaEvks",
+        "uid": "5440f7e15b225df9f877f4e427584c8d8a7fbbc5",
+        "metadata": {
+          "autoplay.is_autoplay": "true",
+          "context_uri": "spotify:station:track:3lSOZb5rruEnFbe9xWELF6",
+          "decision_id": "05fc3c266da6a2534ec3776f97c13deeef11",
+          "entity_uri": "spotify:station:track:3lSOZb5rruEnFbe9xWELF6",
+          "interaction_id": "1d015ef7-ca23-426f-8f7d-eb48e7e027ab",
+          "iteration": "0",
+          "page_instance_id": "b024dd8e-b3ec-4fb0-8545-33b5c6ff9338",
+          "track_player": "audio"
+        },
+        "provider": "autoplay"
+      },
+      {
+        "uri": "spotify:track:6IVIZuZrtuSlSPghHR1vRU",
+        "uid": "29ede610a8c60d40584f8ba9149fdf1d05760ae7",
+        "metadata": {
+          "autoplay.is_autoplay": "true",
+          "context_uri": "spotify:station:track:3lSOZb5rruEnFbe9xWELF6",
+          "decision_id": "05fc3c266da6a2534ec3776f97c13deeef11",
+          "entity_uri": "spotify:station:track:3lSOZb5rruEnFbe9xWELF6",
+          "interaction_id": "1d015ef7-ca23-426f-8f7d-eb48e7e027ab",
+          "iteration": "0",
+          "page_instance_id": "b024dd8e-b3ec-4fb0-8545-33b5c6ff9338",
+          "track_player": "audio"
+        },
+        "provider": "autoplay"
+      },
+      {
+        "uri": "spotify:track:5HTj2M5NUAWxmFgBRWnWmt",
+        "uid": "7af57b31816207c44b4fae0a39832408ff1c87b7",
+        "metadata": {
+          "autoplay.is_autoplay": "true",
+          "context_uri": "spotify:station:track:3lSOZb5rruEnFbe9xWELF6",
+          "decision_id": "05fc3c266da6a2534ec3776f97c13deeef11",
+          "entity_uri": "spotify:station:track:3lSOZb5rruEnFbe9xWELF6",
+          "interaction_id": "1d015ef7-ca23-426f-8f7d-eb48e7e027ab",
+          "iteration": "0",
+          "page_instance_id": "b024dd8e-b3ec-4fb0-8545-33b5c6ff9338",
+          "track_player": "audio"
+        },
+        "provider": "autoplay"
+      },
+      {
+        "uri": "spotify:track:66Q6qHI1mPeGiUj85F9ZGu",
+        "uid": "0c2daedef336940b19b195fdbb97401c25c79d65",
+        "metadata": {
+          "autoplay.is_autoplay": "true",
+          "context_uri": "spotify:station:track:3lSOZb5rruEnFbe9xWELF6",
+          "decision_id": "05fc3c266da6a2534ec3776f97c13deeef11",
+          "entity_uri": "spotify:station:track:3lSOZb5rruEnFbe9xWELF6",
+          "interaction_id": "1d015ef7-ca23-426f-8f7d-eb48e7e027ab",
+          "iteration": "0",
+          "page_instance_id": "b024dd8e-b3ec-4fb0-8545-33b5c6ff9338",
+          "track_player": "audio"
+        },
+        "provider": "autoplay"
+      },
+      {
+        "uri": "spotify:track:3UR1smBMBt2bckrJfBSgyV",
+        "uid": "67c19c14790c4b125a65246fb8293f4589501a2c",
+        "metadata": {
+          "autoplay.is_autoplay": "true",
+          "context_uri": "spotify:station:track:3lSOZb5rruEnFbe9xWELF6",
+          "decision_id": "05fc3c266da6a2534ec3776f97c13deeef11",
+          "entity_uri": "spotify:station:track:3lSOZb5rruEnFbe9xWELF6",
+          "interaction_id": "1d015ef7-ca23-426f-8f7d-eb48e7e027ab",
+          "iteration": "0",
+          "page_instance_id": "b024dd8e-b3ec-4fb0-8545-33b5c6ff9338",
+          "track_player": "audio"
+        },
+        "provider": "autoplay"
+      },
+      {
+        "uri": "spotify:track:0zEpypbhNaiQU5tCpS1yY6",
+        "uid": "b2b65aee7cc9520170ae618217981581e7ac2c84",
+        "metadata": {
+          "autoplay.is_autoplay": "true",
+          "context_uri": "spotify:station:track:3lSOZb5rruEnFbe9xWELF6",
+          "decision_id": "05fc3c266da6a2534ec3776f97c13deeef11",
+          "entity_uri": "spotify:station:track:3lSOZb5rruEnFbe9xWELF6",
+          "interaction_id": "1d015ef7-ca23-426f-8f7d-eb48e7e027ab",
+          "iteration": "0",
+          "page_instance_id": "b024dd8e-b3ec-4fb0-8545-33b5c6ff9338",
+          "track_player": "audio"
+        },
+        "provider": "autoplay"
+      },
+      {
+        "uri": "spotify:track:7gbSDq9luQx6yVl7HyJGIW",
+        "uid": "13dba6118e66fa68f66a779f82671485356958b1",
+        "metadata": {
+          "autoplay.is_autoplay": "true",
+          "context_uri": "spotify:station:track:3lSOZb5rruEnFbe9xWELF6",
+          "decision_id": "05fc3c266da6a2534ec3776f97c13deeef11",
+          "entity_uri": "spotify:station:track:3lSOZb5rruEnFbe9xWELF6",
+          "interaction_id": "1d015ef7-ca23-426f-8f7d-eb48e7e027ab",
+          "iteration": "0",
+          "page_instance_id": "b024dd8e-b3ec-4fb0-8545-33b5c6ff9338",
+          "track_player": "audio"
+        },
+        "provider": "autoplay"
+      },
+      {
+        "uri": "spotify:track:7bJ6xGa3RG2dQgNiK10uAv",
+        "uid": "dcf8efd01d1e1a29959ad073a7d56c4a3c9fde5a",
+        "metadata": {
+          "autoplay.is_autoplay": "true",
+          "context_uri": "spotify:station:track:3lSOZb5rruEnFbe9xWELF6",
+          "decision_id": "05fc3c266da6a2534ec3776f97c13deeef11",
+          "entity_uri": "spotify:station:track:3lSOZb5rruEnFbe9xWELF6",
+          "interaction_id": "1d015ef7-ca23-426f-8f7d-eb48e7e027ab",
+          "iteration": "0",
+          "page_instance_id": "b024dd8e-b3ec-4fb0-8545-33b5c6ff9338",
+          "track_player": "audio"
+        },
+        "provider": "autoplay"
+      },
+      {
+        "uri": "spotify:track:5RHLyqCWMnksvPuLZGUx8N",
+        "uid": "e25143ff1b5b9a203249f5531e94cd3fa6987b7b",
+        "metadata": {
+          "autoplay.is_autoplay": "true",
+          "context_uri": "spotify:station:track:3lSOZb5rruEnFbe9xWELF6",
+          "decision_id": "05fc3c266da6a2534ec3776f97c13deeef11",
+          "entity_uri": "spotify:station:track:3lSOZb5rruEnFbe9xWELF6",
+          "interaction_id": "1d015ef7-ca23-426f-8f7d-eb48e7e027ab",
+          "iteration": "0",
+          "page_instance_id": "b024dd8e-b3ec-4fb0-8545-33b5c6ff9338",
+          "track_player": "audio"
+        },
+        "provider": "autoplay"
+      },
+      {
+        "uri": "spotify:track:5EME2V1E9ZCEBWr1Br0I0x",
+        "uid": "b2f152fbff68900c5184e37b5ca77e1e8547fb5f",
+        "metadata": {
+          "autoplay.is_autoplay": "true",
+          "context_uri": "spotify:station:track:3lSOZb5rruEnFbe9xWELF6",
+          "decision_id": "05fc3c266da6a2534ec3776f97c13deeef11",
+          "entity_uri": "spotify:station:track:3lSOZb5rruEnFbe9xWELF6",
+          "interaction_id": "1d015ef7-ca23-426f-8f7d-eb48e7e027ab",
+          "iteration": "0",
+          "page_instance_id": "b024dd8e-b3ec-4fb0-8545-33b5c6ff9338",
+          "track_player": "audio"
+        },
+        "provider": "autoplay"
+      },
+      {
+        "uri": "spotify:track:7e0eBfXmc83Dmi1YVTfMja",
+        "uid": "109fb4e5da6c2e3ce24d157ce1422bb7acae54ba",
+        "metadata": {
+          "autoplay.is_autoplay": "true",
+          "context_uri": "spotify:station:track:3lSOZb5rruEnFbe9xWELF6",
+          "decision_id": "05fc3c266da6a2534ec3776f97c13deeef11",
+          "entity_uri": "spotify:station:track:3lSOZb5rruEnFbe9xWELF6",
+          "interaction_id": "1d015ef7-ca23-426f-8f7d-eb48e7e027ab",
+          "iteration": "0",
+          "page_instance_id": "b024dd8e-b3ec-4fb0-8545-33b5c6ff9338",
+          "track_player": "audio"
+        },
+        "provider": "autoplay"
+      },
+      {
+        "uri": "spotify:track:33FtwY8jXSPaHRtEGFggwO",
+        "uid": "c877ab310a9364e3fe22d6ca5b2af8b421c9c569",
+        "metadata": {
+          "autoplay.is_autoplay": "true",
+          "context_uri": "spotify:station:track:3lSOZb5rruEnFbe9xWELF6",
+          "decision_id": "05fc3c266da6a2534ec3776f97c13deeef11",
+          "entity_uri": "spotify:station:track:3lSOZb5rruEnFbe9xWELF6",
+          "interaction_id": "1d015ef7-ca23-426f-8f7d-eb48e7e027ab",
+          "iteration": "0",
+          "page_instance_id": "b024dd8e-b3ec-4fb0-8545-33b5c6ff9338",
+          "track_player": "audio"
+        },
+        "provider": "autoplay"
+      },
+      {
+        "uri": "spotify:track:1xWVRCOHH0OzTKQQPqbIPw",
+        "uid": "4fec2b398b5462c22362a23d580289f31408ba73",
+        "metadata": {
+          "autoplay.is_autoplay": "true",
+          "context_uri": "spotify:station:track:3lSOZb5rruEnFbe9xWELF6",
+          "decision_id": "05fc3c266da6a2534ec3776f97c13deeef11",
+          "entity_uri": "spotify:station:track:3lSOZb5rruEnFbe9xWELF6",
+          "interaction_id": "1d015ef7-ca23-426f-8f7d-eb48e7e027ab",
+          "iteration": "0",
+          "page_instance_id": "b024dd8e-b3ec-4fb0-8545-33b5c6ff9338",
+          "track_player": "audio"
+        },
+        "provider": "autoplay"
+      },
+      {
+        "uri": "spotify:track:1FqUDph283khnm6US1ndZ7",
+        "uid": "075c0af10bbf2b09e91ee55bd54c96a6d50e2bb2",
+        "metadata": {
+          "autoplay.is_autoplay": "true",
+          "context_uri": "spotify:station:track:3lSOZb5rruEnFbe9xWELF6",
+          "decision_id": "05fc3c266da6a2534ec3776f97c13deeef11",
+          "entity_uri": "spotify:station:track:3lSOZb5rruEnFbe9xWELF6",
+          "interaction_id": "1d015ef7-ca23-426f-8f7d-eb48e7e027ab",
+          "iteration": "0",
+          "page_instance_id": "b024dd8e-b3ec-4fb0-8545-33b5c6ff9338",
+          "track_player": "audio"
+        },
+        "provider": "autoplay"
+      },
+      {
+        "uri": "spotify:track:19IMW0jDbyXCZtrOSlVHsU",
+        "uid": "6eeb876898fe9735ec064529f5bd240244a0faec",
+        "metadata": {
+          "autoplay.is_autoplay": "true",
+          "context_uri": "spotify:station:track:3lSOZb5rruEnFbe9xWELF6",
+          "decision_id": "05fc3c266da6a2534ec3776f97c13deeef11",
+          "entity_uri": "spotify:station:track:3lSOZb5rruEnFbe9xWELF6",
+          "interaction_id": "1d015ef7-ca23-426f-8f7d-eb48e7e027ab",
+          "iteration": "0",
+          "page_instance_id": "b024dd8e-b3ec-4fb0-8545-33b5c6ff9338",
+          "track_player": "audio"
+        },
+        "provider": "autoplay"
+      },
+      {
+        "uri": "spotify:track:0GkkSpvTYZfTnF8TQ5sYM1",
+        "uid": "ba8f3ee5047c00cab76b4d4d2f1a3e59cec6fc24",
+        "metadata": {
+          "autoplay.is_autoplay": "true",
+          "context_uri": "spotify:station:track:3lSOZb5rruEnFbe9xWELF6",
+          "decision_id": "05fc3c266da6a2534ec3776f97c13deeef11",
+          "entity_uri": "spotify:station:track:3lSOZb5rruEnFbe9xWELF6",
+          "interaction_id": "1d015ef7-ca23-426f-8f7d-eb48e7e027ab",
+          "iteration": "0",
+          "page_instance_id": "b024dd8e-b3ec-4fb0-8545-33b5c6ff9338",
+          "track_player": "audio"
+        },
+        "provider": "autoplay"
+      },
+      {
+        "uri": "spotify:track:0aGA1zFV0ER1xLiJmHxb2s",
+        "uid": "ec7b0b3a02986a946da329eb74c51dabde941785",
+        "metadata": {
+          "autoplay.is_autoplay": "true",
+          "context_uri": "spotify:station:track:3lSOZb5rruEnFbe9xWELF6",
+          "decision_id": "05fc3c266da6a2534ec3776f97c13deeef11",
+          "entity_uri": "spotify:station:track:3lSOZb5rruEnFbe9xWELF6",
+          "interaction_id": "1d015ef7-ca23-426f-8f7d-eb48e7e027ab",
+          "iteration": "0",
+          "page_instance_id": "b024dd8e-b3ec-4fb0-8545-33b5c6ff9338",
+          "track_player": "audio"
+        },
+        "provider": "autoplay"
+      },
+      {
+        "uri": "spotify:track:1vkyQxqSUp9P83q1JnQit9",
+        "uid": "3294fcc320f10ceab8f4dc18692c5e535dc4f8cb",
+        "metadata": {
+          "autoplay.is_autoplay": "true",
+          "context_uri": "spotify:station:track:3lSOZb5rruEnFbe9xWELF6",
+          "decision_id": "05fc3c266da6a2534ec3776f97c13deeef11",
+          "entity_uri": "spotify:station:track:3lSOZb5rruEnFbe9xWELF6",
+          "interaction_id": "1d015ef7-ca23-426f-8f7d-eb48e7e027ab",
+          "iteration": "0",
+          "page_instance_id": "b024dd8e-b3ec-4fb0-8545-33b5c6ff9338",
+          "track_player": "audio"
+        },
+        "provider": "autoplay"
+      },
+      {
+        "uri": "spotify:meta:page:1",
+        "uid": "page1_0",
+        "metadata": {
+          "autoplay.is_autoplay": "true",
+          "hidden": "true",
+          "interaction_id": "1d015ef7-ca23-426f-8f7d-eb48e7e027ab",
+          "iteration": "0",
+          "page_instance_id": "b024dd8e-b3ec-4fb0-8545-33b5c6ff9338"
+        },
+        "provider": "autoplay"
+      },
+      {
+        "uri": "spotify:delimiter",
+        "uid": "delimiter0",
+        "metadata": {
+          "actions.advancing_past_track": "pause",
+          "actions.skipping_next_past_track": "pause",
+          "autoplay.is_autoplay": "true",
+          "hidden": "true",
+          "interaction_id": "1d015ef7-ca23-426f-8f7d-eb48e7e027ab",
+          "iteration": "0",
+          "page_instance_id": "b024dd8e-b3ec-4fb0-8545-33b5c6ff9338"
+        },
+        "provider": "autoplay"
+      }
+    ],
+    "context_metadata": {
+      "player.arch": "2"
+    },
+    "page_metadata": {},
+    "session_id": "2wtxkExMhsXnaUySgoY26O",
+    "queue_revision": "17207378532092049279",
+    "audio_stream": "default",
+    "playback_quality": {
+      "bitrate_level": "very_high",
+      "strategy": "best_matching",
+      "target_bitrate_level": "very_high",
+      "target_bitrate_available": true
+    }
+  },
+  "devices": {
+    "194dc27adb7875154dd31c700a94d1918c4f3314": {
+      "can_play": true,
+      "volume": 65535,
+      "name": "Web Player (Chrome)",
+      "capabilities": {
+        "can_be_player": true,
+        "gaia_eq_connect_id": true,
+        "supports_logout": true,
+        "is_observable": true,
+        "volume_steps": 64,
+        "supported_types": [
+          "audio/track",
+          "audio/episode",
+          "video/episode",
+          "mixed/episode"
+        ],
+        "command_acks": true,
+        "is_controllable": true,
+        "supports_external_episodes": true,
+        "supports_command_request": true,
+        "supports_set_options_command": true,
+        "supports_hifi": {}
+      },
+      "device_software_version": "harmony:4.27.1-af7f4f3/track-playback",
+      "device_type": "COMPUTER",
+      "device_id": "194dc27adb7875154dd31c700a94d1918c4f3314",
+      "client_id": "d8a5ed958d274c2e8ee717e6a4b0971d",
+      "brand": "spotify",
+      "model": "web_player",
+      "public_ip": "2600:4041:44ce:8500:ac38:40f2:a034:afd9",
+      "license": "premium"
+    }
+  },
+  "need_full_player_state": true,
+  "server_timestamp_ms": "1684710200623",
+  "needs_state_updates": true
+}

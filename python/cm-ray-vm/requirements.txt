@@ -1,0 +1,2 @@
+fast-sentence-transformers
+onnxruntime==1.10

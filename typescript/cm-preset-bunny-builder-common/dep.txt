@@ -1,0 +1,3 @@
+base-core
+cm-bunny-host-common
+cm-bunny-host-web-common

@@ -1,0 +1,26 @@
+{
+  "idempotencyKey": "!!!INCREASE_THIS_FOR_NEW_ORDER=>2303163",
+  "retailer": "amazon",
+  "products": [
+    {
+      "productId": "B07S9PTLNZ",
+      "quantity": 1,
+      "sellerSelectionCriteria": {
+        "maxItemPrice": 1999,
+        "handlingDaysMax": 10
+      }
+    }
+  ],
+  "shippingAddress": {
+    "firstName": "Jesse",
+    "lastName": "Lyu",
+    "addressLine1": "5 Wrangler Ln",
+    "zipCode": "91307",
+    "city": "Bell Canyon",
+    "state": "CA",
+    "country": "US",
+    "phoneNumber": "2073292370"
+  },
+  "shippingMethod": "cheapest",
+  "maxPrice": 3000
+}

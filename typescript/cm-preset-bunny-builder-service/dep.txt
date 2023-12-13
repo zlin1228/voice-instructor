@@ -1,0 +1,10 @@
+base-core
+base-fastify
+base-kubernetes
+base-mongodb
+base-nli
+base-node
+base-playwright
+cm-bunny-host-common
+cm-bunny-host-web-common
+cm-preset-bunny-builder-common

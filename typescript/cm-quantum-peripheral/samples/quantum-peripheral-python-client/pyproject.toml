@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "quantum-peripheral-python-client"
+version = "0.1.0"
+description = ""
+authors = ["Zhuoheng Yang <zhuoheng@cybermanufacture.co>"]
+readme = "README.md"
+packages = [{include = "quantum_peripheral_python_client", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pydantic = "^1.10.5"
+requests = "^2.28.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

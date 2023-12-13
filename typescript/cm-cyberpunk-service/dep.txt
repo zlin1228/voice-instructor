@@ -1,0 +1,11 @@
+base-core
+base-node
+base-fastify
+base-mongodb
+base-gcp
+base-serp
+base-playwright
+base-media
+base-kubernetes
+cm-cyberpunk-common
+cm-browsing-minion-common

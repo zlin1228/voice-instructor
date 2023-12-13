@@ -1,0 +1,5 @@
+base-core
+base-node
+base-fastify
+base-playwright
+cm-browsing-minion-common

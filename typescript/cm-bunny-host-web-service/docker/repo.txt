@@ -1,0 +1,1 @@
+us-docker.pkg.dev/cmc-ai/quantum/cm-bunny-host-web-service

@@ -1,0 +1,13 @@
+{
+  "name": "base-node",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "base-core": "file:../base-core"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.13",
+    "@typescript-eslint/eslint-plugin": "^5.59.0",
+    "typescript": "^5.2.2"
+  }
+}

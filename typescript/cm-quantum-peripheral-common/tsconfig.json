@@ -1,0 +1,9 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "extends": "../common/base-tsconfig.json",
+  "compilerOptions": {
+    "incremental": true,
+    "rootDir": "./src",
+    "outDir": "./lib"
+  }
+}

@@ -1,0 +1,81 @@
+import * as mediasoupClient from 'mediasoup-client';
+
+const socket = io();
+const playButton = document.getElementById('playButton');
+const videoElement = document.getElementById('videoElement');
+
+let device;
+let receiveTransport;
+let consumer;
+
+playButton.addEventListener('click', async () => {
+  try {
+    playButton.disabled = true;
+
+    // Request the mediasoup Router RTP capabilities from the server
+    socket.emit('getRouterRtpCapabilities', async (routerRtpCapabilities) => {
+      // Initialize the mediasoup device using the router RTP capabilities
+      device = new mediasoupClient.Device();
+      await device.load({ routerRtpCapabilities });
+
+      // Create a mediasoup receive transport
+      const transportInfo = await new Promise((resolve) => {
+        socket.emit('createWebRtcTransport', (data) => resolve(data));
+      });
+
+      receiveTransport = device.createRecvTransport(transportInfo);
+
+      // Set up event listeners for the receive transport
+      receiveTransport.on('connect', ({ dtlsParameters }, callback, errback) => {
+        socket.emit(
+          'connectWebRtcTransport',
+          {
+            transportId: receiveTransport.id,
+            dtlsParameters,
+          },
+          (error) => {
+            if (error) {
+              errback(error);
+            } else {
+              callback();
+            }
+          }
+        );
+      });
+
+      // Request the producer ID from the server
+      socket.emit('getProducerId', async (producerId) => {
+        // Consume the WebRTC content using the mediasoup receive transport
+        const { rtpCapabilities } = device;
+        const data = await new Promise((resolve) => {
+          socket.emit('consume', { rtpCapabilities, producerId }, (data) => resolve(data));
+        });
+
+        consumer = await receiveTransport.consume(data);
+
+        // Set the video element's source to the consumer's track
+        videoElement.srcObject = new MediaStream([consumer.track]);
+      });
+    });
+  } catch (error) {
+    console.error('Error playing WebRTC content:', error);
+    playButton.disabled = false;
+  }
+});
+
+socket.on('disconnect', () => {
+  // Clean up the mediasoup resources and the video element when the socket is disconnected
+  if (consumer) {
+    consumer.close();
+    consumer = null;
+  }
+  if (receiveTransport) {
+    receiveTransport.close();
+    receiveTransport = null;
+  }
+  if (device) {
+    device = null;
+  }
+  videoElement.srcObject = null;
+  playButton.disabled = false;
+});

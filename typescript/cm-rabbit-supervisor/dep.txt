@@ -1,0 +1,7 @@
+base-core
+base-fastify
+base-node
+base-playwright
+base-kubernetes
+base-gcp
+cm-rabbit-common

@@ -1,0 +1,312 @@
+{
+  "tracks": [
+    {
+      "album": {
+        "album_type": "album",
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/0jrFMgW018F1XVnLtCXOKi"
+            },
+            "href": "https://api.spotify.com/v1/artists/0jrFMgW018F1XVnLtCXOKi",
+            "id": "0jrFMgW018F1XVnLtCXOKi",
+            "name": "Fabrizio Paterlini",
+            "type": "artist",
+            "uri": "spotify:artist:0jrFMgW018F1XVnLtCXOKi"
+          }
+        ],
+        "external_urls": {
+          "spotify": "https://open.spotify.com/album/7dopFnnInju2yjJe127paH"
+        },
+        "href": "https://api.spotify.com/v1/albums/7dopFnnInju2yjJe127paH",
+        "id": "7dopFnnInju2yjJe127paH",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab67616d0000b273eb7082951d1d23ca2deb0789",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab67616d00001e02eb7082951d1d23ca2deb0789",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab67616d00004851eb7082951d1d23ca2deb0789",
+            "width": 64
+          }
+        ],
+        "is_playable": true,
+        "name": "Transitions",
+        "release_date": "2019-11-22",
+        "release_date_precision": "day",
+        "total_tracks": 8,
+        "type": "album",
+        "uri": "spotify:album:7dopFnnInju2yjJe127paH"
+      },
+      "artists": [
+        {
+          "external_urls": {
+            "spotify": "https://open.spotify.com/artist/0jrFMgW018F1XVnLtCXOKi"
+          },
+          "href": "https://api.spotify.com/v1/artists/0jrFMgW018F1XVnLtCXOKi",
+          "id": "0jrFMgW018F1XVnLtCXOKi",
+          "name": "Fabrizio Paterlini",
+          "type": "artist",
+          "uri": "spotify:artist:0jrFMgW018F1XVnLtCXOKi"
+        }
+      ],
+      "disc_number": 1,
+      "duration_ms": 66715,
+      "explicit": false,
+      "external_ids": {
+        "isrc": "ITLSK1900111"
+      },
+      "external_urls": {
+        "spotify": "https://open.spotify.com/track/3jr9gtpaDA4XFdDSqRpPZk"
+      },
+      "href": "https://api.spotify.com/v1/tracks/3jr9gtpaDA4XFdDSqRpPZk",
+      "id": "3jr9gtpaDA4XFdDSqRpPZk",
+      "is_local": false,
+      "is_playable": true,
+      "name": "Istanbul Wedding",
+      "popularity": 40,
+      "preview_url": "https://p.scdn.co/mp3-preview/cfcdc9efd56f4dd90790fcd0528c8632937f721e?cid=d8a5ed958d274c2e8ee717e6a4b0971d",
+      "track_number": 4,
+      "type": "track",
+      "uri": "spotify:track:3jr9gtpaDA4XFdDSqRpPZk"
+    },
+    {
+      "album": {
+        "album_type": "single",
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/5uNm1FvRSh2IcPNDGQChtr"
+            },
+            "href": "https://api.spotify.com/v1/artists/5uNm1FvRSh2IcPNDGQChtr",
+            "id": "5uNm1FvRSh2IcPNDGQChtr",
+            "name": "Ben Crosland",
+            "type": "artist",
+            "uri": "spotify:artist:5uNm1FvRSh2IcPNDGQChtr"
+          }
+        ],
+        "external_urls": {
+          "spotify": "https://open.spotify.com/album/1HBOLQ0QoDkGDGnjhfdzPy"
+        },
+        "href": "https://api.spotify.com/v1/albums/1HBOLQ0QoDkGDGnjhfdzPy",
+        "id": "1HBOLQ0QoDkGDGnjhfdzPy",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab67616d0000b273fdc6a94a294a2c6d8d818e44",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab67616d00001e02fdc6a94a294a2c6d8d818e44",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab67616d00004851fdc6a94a294a2c6d8d818e44",
+            "width": 64
+          }
+        ],
+        "is_playable": true,
+        "name": "The Turn",
+        "release_date": "2020-06-19",
+        "release_date_precision": "day",
+        "total_tracks": 6,
+        "type": "album",
+        "uri": "spotify:album:1HBOLQ0QoDkGDGnjhfdzPy"
+      },
+      "artists": [
+        {
+          "external_urls": {
+            "spotify": "https://open.spotify.com/artist/5uNm1FvRSh2IcPNDGQChtr"
+          },
+          "href": "https://api.spotify.com/v1/artists/5uNm1FvRSh2IcPNDGQChtr",
+          "id": "5uNm1FvRSh2IcPNDGQChtr",
+          "name": "Ben Crosland",
+          "type": "artist",
+          "uri": "spotify:artist:5uNm1FvRSh2IcPNDGQChtr"
+        }
+      ],
+      "disc_number": 1,
+      "duration_ms": 119306,
+      "explicit": false,
+      "external_ids": {
+        "isrc": "GBWMY2050400"
+      },
+      "external_urls": {
+        "spotify": "https://open.spotify.com/track/7rluktTepDJTxl6Jb35otq"
+      },
+      "href": "https://api.spotify.com/v1/tracks/7rluktTepDJTxl6Jb35otq",
+      "id": "7rluktTepDJTxl6Jb35otq",
+      "is_local": false,
+      "is_playable": true,
+      "name": "Memento",
+      "popularity": 55,
+      "preview_url": "https://p.scdn.co/mp3-preview/6dd224c239b2974e5d1bb51ef4201a5a27cb1e1c?cid=d8a5ed958d274c2e8ee717e6a4b0971d",
+      "track_number": 2,
+      "type": "track",
+      "uri": "spotify:track:7rluktTepDJTxl6Jb35otq"
+    },
+    {
+      "album": {
+        "album_type": "album",
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/6FU6gwUc2OBtUA6TVQLo6C"
+            },
+            "href": "https://api.spotify.com/v1/artists/6FU6gwUc2OBtUA6TVQLo6C",
+            "id": "6FU6gwUc2OBtUA6TVQLo6C",
+            "name": "Borrtex",
+            "type": "artist",
+            "uri": "spotify:artist:6FU6gwUc2OBtUA6TVQLo6C"
+          }
+        ],
+        "external_urls": {
+          "spotify": "https://open.spotify.com/album/5ZKKlCjf1NDRELNAkrfQz8"
+        },
+        "href": "https://api.spotify.com/v1/albums/5ZKKlCjf1NDRELNAkrfQz8",
+        "id": "5ZKKlCjf1NDRELNAkrfQz8",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab67616d0000b273090d89afaa177529cf6e47d1",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab67616d00001e02090d89afaa177529cf6e47d1",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab67616d00004851090d89afaa177529cf6e47d1",
+            "width": 64
+          }
+        ],
+        "is_playable": true,
+        "name": "Something Special",
+        "release_date": "2017-11-06",
+        "release_date_precision": "day",
+        "total_tracks": 8,
+        "type": "album",
+        "uri": "spotify:album:5ZKKlCjf1NDRELNAkrfQz8"
+      },
+      "artists": [
+        {
+          "external_urls": {
+            "spotify": "https://open.spotify.com/artist/6FU6gwUc2OBtUA6TVQLo6C"
+          },
+          "href": "https://api.spotify.com/v1/artists/6FU6gwUc2OBtUA6TVQLo6C",
+          "id": "6FU6gwUc2OBtUA6TVQLo6C",
+          "name": "Borrtex",
+          "type": "artist",
+          "uri": "spotify:artist:6FU6gwUc2OBtUA6TVQLo6C"
+        }
+      ],
+      "disc_number": 1,
+      "duration_ms": 66156,
+      "explicit": false,
+      "external_ids": {
+        "isrc": "GB-SMU-43-61482"
+      },
+      "external_urls": {
+        "spotify": "https://open.spotify.com/track/3Zckk6BHuIzsk0oGnH5xAB"
+      },
+      "href": "https://api.spotify.com/v1/tracks/3Zckk6BHuIzsk0oGnH5xAB",
+      "id": "3Zckk6BHuIzsk0oGnH5xAB",
+      "is_local": false,
+      "is_playable": true,
+      "name": "It All Begins Here",
+      "popularity": 65,
+      "preview_url": "https://p.scdn.co/mp3-preview/8364b4ad527eecf87bc77a9ca299056bb4f1b665?cid=d8a5ed958d274c2e8ee717e6a4b0971d",
+      "track_number": 2,
+      "type": "track",
+      "uri": "spotify:track:3Zckk6BHuIzsk0oGnH5xAB"
+    },
+    {
+      "album": {
+        "album_type": "album",
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/0jrFMgW018F1XVnLtCXOKi"
+            },
+            "href": "https://api.spotify.com/v1/artists/0jrFMgW018F1XVnLtCXOKi",
+            "id": "0jrFMgW018F1XVnLtCXOKi",
+            "name": "Fabrizio Paterlini",
+            "type": "artist",
+            "uri": "spotify:artist:0jrFMgW018F1XVnLtCXOKi"
+          }
+        ],
+        "external_urls": {
+          "spotify": "https://open.spotify.com/album/39LWVcWN0HG7SF27UiuW9b"
+        },
+        "href": "https://api.spotify.com/v1/albums/39LWVcWN0HG7SF27UiuW9b",
+        "id": "39LWVcWN0HG7SF27UiuW9b",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab67616d0000b27376e7e807387a54a1290294cf",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab67616d00001e0276e7e807387a54a1290294cf",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab67616d0000485176e7e807387a54a1290294cf",
+            "width": 64
+          }
+        ],
+        "is_playable": true,
+        "name": "Fragments Found",
+        "release_date": "2010-10-29",
+        "release_date_precision": "day",
+        "total_tracks": 10,
+        "type": "album",
+        "uri": "spotify:album:39LWVcWN0HG7SF27UiuW9b"
+      },
+      "artists": [
+        {
+          "external_urls": {
+            "spotify": "https://open.spotify.com/artist/0jrFMgW018F1XVnLtCXOKi"
+          },
+          "href": "https://api.spotify.com/v1/artists/0jrFMgW018F1XVnLtCXOKi",
+          "id": "0jrFMgW018F1XVnLtCXOKi",
+          "name": "Fabrizio Paterlini",
+          "type": "artist",
+          "uri": "spotify:artist:0jrFMgW018F1XVnLtCXOKi"
+        }
+      ],
+      "disc_number": 1,
+      "duration_ms": 111442,
+      "explicit": false,
+      "external_ids": {
+        "isrc": "USHM91062553"
+      },
+      "external_urls": {
+        "spotify": "https://open.spotify.com/track/3lSOZb5rruEnFbe9xWELF6"
+      },
+      "href": "https://api.spotify.com/v1/tracks/3lSOZb5rruEnFbe9xWELF6",
+      "id": "3lSOZb5rruEnFbe9xWELF6",
+      "is_local": false,
+      "is_playable": true,
+      "name": "Rue des trois frères",
+      "popularity": 69,
+      "preview_url": "https://p.scdn.co/mp3-preview/4592347c166ebdac47ee51bda093e2690d66e7db?cid=d8a5ed958d274c2e8ee717e6a4b0971d",
+      "track_number": 8,
+      "type": "track",
+      "uri": "spotify:track:3lSOZb5rruEnFbe9xWELF6"
+    }
+  ]
+}

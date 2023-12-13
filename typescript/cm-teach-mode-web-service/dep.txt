@@ -1,0 +1,6 @@
+base-core
+base-fastify
+base-mongodb
+base-node
+base-playwright
+cm-teach-mode-web-common

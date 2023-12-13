@@ -1,0 +1,12 @@
+.trackName {
+    position: relative;
+    -webkit-mask-image: linear-gradient(to left, transparent, white 15%, white);
+    mask-image: linear-gradient(to left, transparent, white 15%, white);
+    font-size: 20;
+    font-weight: 600;
+    color: white;
+    height: 20px;
+    width: 287px;
+    overflow: hidden;
+  }
+  

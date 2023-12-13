@@ -1,0 +1,320 @@
+import express from "express"
+import http from "http"
+import { Server as WebSocketServer } from "ws"
+import {
+  WebRtcTransport,
+  PlainTransport,
+  Consumer,
+  DataProducer,
+  DataConsumer,
+} from "mediasoup/node/lib/types"
+
+import { Worker, Router, Producer } from "mediasoup/node/lib/types"
+import { RtpCapabilities, RtpParameters } from "mediasoup/node/lib/types"
+
+import { createWorker } from "mediasoup"
+
+let worker: Worker
+let router: Router
+
+// 1. Initializes the Express application.
+async function initializeExpressApp(port: number): Promise<express.Express> {
+  const app = express()
+  const server = http.createServer(app)
+
+  app.use(express.static("public"))
+
+  server.listen(port, () => {
+    console.log(`Server is running on port ${port}`)
+  })
+
+  return app
+}
+
+// 2. Configures the mediasoup worker.
+async function configureMediasoupWorker(): Promise<Worker> {
+  worker = await createWorker()
+
+  worker.on("died", () => {
+    console.error("mediasoup worker died, exiting...")
+    process.exit(1)
+  })
+
+  return worker
+}
+
+// 3. Initializes the WebSocket server.
+function initializeWebSocketServer(server: http.Server): WebSocketServer {
+  const wsServer = new WebSocketServer({ server })
+
+  wsServer.on("connection", handleWebSocketConnection)
+
+  return wsServer
+}
+
+// 4. Handles WebSocket connections from clients.
+function handleWebSocketConnection(ws: WebSocket): void {
+  ws.on("message", (message: string) => {
+    // Handle WebSocket messages from clients (e.g., join, leave, signal)
+  })
+
+  ws.on("close", () => {
+    // Handle client disconnection
+  })
+}
+
+// 5. Creates a mediasoup router.
+async function createMediasoupRouter(worker: Worker): Promise<Router> {
+  const mediaCodecs = [
+    {
+      kind: "audio",
+      mimeType: "audio/opus",
+      clockRate: 48000,
+      channels: 2,
+    },
+    {
+      kind: "video",
+      mimeType: "video/VP8",
+      clockRate: 90000,
+    },
+  ]
+
+  router = await worker.createRouter({ mediaCodecs })
+  return router
+}
+
+;(async () => {
+  const port = 3000
+  const app = await initializeExpressApp(port)
+  await configureMediasoupWorker()
+  const httpServer = app.listen(port)
+  initializeWebSocketServer(httpServer)
+  await createMediasoupRouter(worker)
+})()
+
+type TransportAndConsumer = {
+  transport: WebRtcTransport
+  consumer: Consumer
+}
+
+const transportsAndConsumers = new Map<string, TransportAndConsumer>()
+
+// 6. Creates a WebRTC transport.
+async function createWebRtcTransport(): Promise<WebRtcTransport> {
+  const transportOptions = await router.createWebRtcTransport({
+    listenIps: [
+      {
+        ip: "0.0.0.0", // Replace with your server's IP address
+        announcedIp: null,
+      },
+    ],
+  })
+
+  const transport = await router.createWebRtcTransport(transportOptions)
+
+  return transport
+}
+
+// 7. Creates a plain RTP transport for ingesting the RTP stream.
+async function createPlainRtpTransport(): Promise<PlainRtpTransport> {
+  const transportOptions = {
+    listenIp: {
+      ip: "0.0.0.0", // Replace with your server's IP address
+      announcedIp: null,
+    },
+    rtcpMux: false,
+    comedia: true,
+  }
+
+  const transport = await router.createPlainRtpTransport(transportOptions)
+
+  return transport
+}
+
+// 8. Creates a mediasoup producer.
+async function createProducer(
+  transport: PlainRtpTransport,
+  rtpParameters: RtpParameters
+): Promise<Producer> {
+  const producer = await transport.produce({ kind: "video", rtpParameters })
+
+  return producer
+}
+
+// 9. Creates a mediasoup consumer for each WebRTC client.
+async function createConsumer(
+  producer: Producer,
+  transport: WebRtcTransport
+): Promise<Consumer> {
+  const consumer = await transport.consume({
+    producerId: producer.id,
+    rtpCapabilities: router.rtpCapabilities,
+    paused: true,
+  })
+
+  return consumer
+}
+
+// 10. Ingests the RTP stream and creates a producer.
+async function handleRtpStream(
+  rtpParameters: RtpParameters
+): Promise<Producer> {
+  const plainRtpTransport = await createPlainRtpTransport()
+  const producer = await createProducer(plainRtpTransport, rtpParameters)
+
+  return producer
+}
+
+// 11. Broadcasts the RTP stream to connected WebRTC clients.
+async function broadcastStream(producer: Producer): Promise<void> {
+  for (const [, transportAndConsumer] of transportsAndConsumers) {
+    const { transport } = transportAndConsumer
+    const consumer = await createConsumer(producer, transport)
+    transportAndConsumer.consumer = consumer
+  }
+}
+
+// 12. Handles a client joining the room.
+async function handleClientJoin(clientId: string): Promise<WebRtcTransport> {
+  const transport = await createWebRtcTransport()
+  transportsAndConsumers.set(clientId, { transport, consumer: null })
+  return transport
+}
+
+// 13. Handles a client leaving the room.
+function handleClientLeave(clientId: string): void {
+  const transportAndConsumer = transportsAndConsumers.get(clientId)
+  if (transportAndConsumer) {
+    transportAndConsumer.transport.close()
+    transportsAndConsumers.delete(clientId)
+  }
+}
+
+// 14. Handles client signaling messages.
+async function handleClientSignal(
+  clientId: string,
+  signal: {
+    type: string
+    data: any
+  }
+): Promise<void> {
+  switch (signal.type) {
+    case "join":
+      await handleClientJoin(clientId)
+      break
+    case "leave":
+      handleClientLeave(clientId)
+      break
+    case "transport-connect":
+      await handleTransportConnect(clientId, signal.data)
+      break
+    case "transport-produce":
+      await handleTransportProduce(clientId, signal.data)
+      break
+    case "transport-consume":
+      await handleTransportConsume(clientId, signal.data)
+      break
+    default:
+      console.warn("Unknown signal type:", signal.type)
+  }
+}
+
+// 15. Handles the closing of a mediasoup producer.
+function handleProducerClose(producer: Producer): void {
+  producer.on("close", () => {
+    console.log("Producer closed")
+  })
+}
+
+// 16. Closes all transports associated with a client.
+function closeAllTransports(): void {
+  for (const [, transportAndConsumer] of transportsAndConsumers) {
+    transportAndConsumer.transport.close()
+  }
+}
+
+// Helper functions for handling client signaling
+
+async function handleTransportConnect(
+  clientId: string,
+  data: { dtlsParameters: any }
+) {
+  const transportAndConsumer = transportsAndConsumers.get(clientId)
+  if (transportAndConsumer && transportAndConsumer.transport) {
+    await transportAndConsumer.transport.connect({
+      dtlsParameters: data.dtlsParameters,
+    })
+  }
+}
+
+async function handleTransportProduce(
+  clientId: string,
+  data: {
+    kind: string
+    rtpParameters: RtpParameters
+    rtpCapabilities: RtpCapabilities
+  }
+) {
+  const transportAndConsumer = transportsAndConsumers.get(clientId)
+  if (transportAndConsumer && transportAndConsumer.transport) {
+    const producer = await transportAndConsumer.transport.produce({
+      kind: data.kind,
+      rtpParameters: data.rtpParameters,
+    })
+
+    handleProducerClose(producer)
+
+    return { id: producer.id }
+  }
+}
+
+async function handleTransportConsume(
+  clientId: string,
+  data: { producerId: string; rtpCapabilities: RtpCapabilities }
+) {
+  const transportAndConsumer = transportsAndConsumers.get(clientId)
+  if (transportAndConsumer && transportAndConsumer.transport) {
+    const consumer = await transportAndConsumer.transport.consume({
+      producerId: data.producerId,
+      rtpCapabilities: data.rtpCapabilities,
+    })
+
+    return {
+      id: consumer.id,
+      kind: consumer.kind,
+      rtpParameters: consumer.rtpParameters,
+    }
+  }
+}
+
+/*
+[main]
+├── initializeExpressApp
+│ └── http.createServer
+├── configureMediasoupWorker
+│ └── createWorker
+├── initializeWebSocketServer
+│ └── handleWebSocketConnection
+│ ├── handleWebSocketMessage (from client)
+│ │ └── handleClientSignal
+│ │ ├── handleClientJoin
+│ │ │ └── createWebRtcTransport
+│ │ ├── handleClientLeave
+│ │ ├── handleTransportConnect
+│ │ ├── handleTransportProduce
+│ │ │ └── handleProducerClose
+│ │ └── handleTransportConsume
+│ └── handleWebSocketClose (from client)
+│ └── handleClientLeave
+└── createMediasoupRouter
+└── worker.createRouter
+
+[ingesting RTP stream]
+└── handleRtpStream
+├── createPlainRtpTransport
+└── createProducer
+
+[broadcasting RTP stream]
+└── broadcastStream
+└── createConsumer
+*/
