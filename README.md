@@ -1,15 +1,8 @@
-# rabbit Monorepo
 
 Directory structure:
 
 ```
 /
-├── base/main.sh                       # Bash script utility
-├── clusters                           # Kubernetes clusters
-│   └── <cluster name>
-│       └── <Kubernetes namespace>
-├── dev                                # Scripts for environment setup
-├── layers                             # Scripts for building Docker images
 └── typescript                         # TypeScript libraries and applications
     ├── base-core                      # Core library for both NodeJS and Web
     ├── base-node                      # Library for NodeJS
